@@ -20,7 +20,8 @@ Methods
 
 Protocol: every (method, case, N, seed, radius) is solved on training rows only and
 scored on its validation rows. Per (method, case, N, seed) the radius with minimum
-validation mean is selected (exact ties -> smaller radius). All selections are
+validation mean is selected (since 2026-11-18: the largest radius within 1e-6 of the minimum validation mean,
+src/config.py; originally exact ties -> smaller radius). All selections are
 sealed (SHA-256) before the seed-9999 10,000-row test set is generated; only selected
 policies are then test-evaluated. Shipping fees: 0.1 per raw q2 > 0 (NN convention);
 the historical q2 > 1e-10 cost is also recorded. Radius grids: SRO's historical
@@ -259,8 +260,18 @@ def plan(methods):
     return sorted(specs, key=lambda s: (-CASES[s['case']]['shipping'], -s['n'], -CASES[s['case']]['R']))
 
 
+def _rule():
+    """Shared radius-selection rule (retailers_experiment/src/config.py), 2026-11-18."""
+    import importlib
+    import sys
+    shared = '/data/home/aviyac/retailers_experiment'
+    if shared not in sys.path:
+        sys.path.insert(0, shared)
+    return importlib.import_module('src.config')
+
+
 def select(records):
-    """Per (method, case, N, seed): minimum validation mean, exact ties -> smaller radius."""
+    """Per (method, case, N, seed): radius by the shared rule (largest radius within 1e-6 of the minimum)."""
     groups = {}
     for r in records:
         groups.setdefault((r['method'], r['case'], r['n'], r['seed']), []).append(r)
@@ -270,7 +281,8 @@ def select(records):
             blocked.append(dict(zip(('method', 'case', 'n', 'seed'), key),
                                 failed=[r['id'] for r in rows if r['status'] != 'completed']))
             continue
-        best = min(rows, key=lambda r: (r['validation']['mean'], r['rho']))
+        chosen = _rule().select_radius({r['rho']: r['validation']['mean'] for r in rows})
+        best = next(r for r in rows if r['rho'] == chosen)
         selections.append(dict(zip(('method', 'case', 'n', 'seed'), key), rho=best['rho'], id=best['id'],
                                validation_mean=best['validation']['mean'], policy_path=best['policy_path'],
                                policy_sha256=sha256(Path(best['policy_path']).read_bytes()),
@@ -359,7 +371,7 @@ def main():
     write_json(output / 'selection_seal.json', dict(
         sealed_at_utc=utc(), selections=selections, blocked=blocked,
         failed_jobs=[r['id'] for r in records if r['status'] != 'completed'],
-        rule='minimum validation mean; exact ties -> smaller radius; test not yet generated'))
+        rule=_rule().RADIUS_SELECTION_RULE + '; test not yet generated'))
     seal_sha = sha256((output / 'selection_seal.json').read_bytes())
     print(utc(), f'sealed {len(selections)} selections ({len(blocked)} blocked), sha256 {seal_sha}', flush=True)
     tests = test_selected(selections)

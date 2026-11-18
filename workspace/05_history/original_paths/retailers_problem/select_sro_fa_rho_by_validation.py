@@ -9,6 +9,9 @@ generated only after all ten radius choices for a configuration are frozen.
 
 import argparse
 import json
+import sys as _sys
+_sys.path.insert(0, '/data/home/aviyac/retailers_experiment')
+from src.config import RADIUS_SELECTION_RULE, select_radius  # shared radius rule, 2026-11-18
 import os
 import platform
 import socket
@@ -345,6 +348,7 @@ def initial_results(experiment_name, experiment):
             "protocol": "per_seed_independent_validation_sro_fa_rho_selection_v1",
             "validation_fraction": VALIDATION_FRACTION,
             "validation_size_rule": "ceil(validation_fraction * N_train)",
+            "selection_rule": RADIUS_SELECTION_RULE,
             "validation_seed_base": VALIDATION_SEED_BASE,
             "training_seeds": SEEDS,
             "candidate_rule": "same common positive rho candidates as Neural CCG, rho <= 1.5",
@@ -488,9 +492,7 @@ def run_training_size(experiment_name, experiment, n_train, results):
                 float(existing_rho): entry["validation_cost"]
                 for existing_rho, entry in seed_results["validation_candidates"].items()
             }
-            if not existing_costs or (validation_cost, rho) < min(
-                (cost, existing_rho) for existing_rho, cost in existing_costs.items()
-            ):
+            if not existing_costs or select_radius({**existing_costs, rho: validation_cost}) == rho:
                 save_policy(policy_path, rho, q10, q1r, q2, part_lo, part_hi)
 
             seed_results["validation_candidates"][rho_key] = {
@@ -515,7 +517,7 @@ def run_training_size(experiment_name, experiment, n_train, results):
             float(rho): entry["validation_cost"]
             for rho, entry in seed_results["validation_candidates"].items()
         }
-        selected_rho = min(validation_costs, key=lambda rho: (validation_costs[rho], rho))
+        selected_rho = select_radius(validation_costs)
         policy = load_policy(policy_path)
         if not np.isclose(float(policy["rho"]), selected_rho):
             raise RuntimeError(f"Selected policy file is stale for {experiment_name}, N={n_train}, seed={seed}")

@@ -1,5 +1,7 @@
 # GREEN STOP (no shipping) validation-selected radius, R3/R10 — 15 Oct 2026
 
+> **18 November 2026 — radius selection rule changed.** Validation-based radius selection now uses the shared rule "largest radius within 1e-6 of the minimum validation score" (`src/config.py`), replacing "exact tie -> smaller radius". The sealed outputs of this run record the old rule and are unchanged; the current selections, which change no test cost, are in `comparison/paper_figures/radius_selection_20261118/`.
+
 Analogue of `../shipping_validation_qpositive_20261006/` for the no-shipping
 retailer cases. Evaluation of existing policies only: no retraining, no new
 CCG, no solver substitution, no retry/fallback, no test-driven selection.

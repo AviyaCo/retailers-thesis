@@ -1,0 +1,67 @@
+% Retailer experiments: revised text for the radius-selection rule of 18 November 2026.
+% Paste-ready replacements for the manuscript/thesis retailer section (retailer_manuscript_revised_20261113.tex).
+% Source of every number: comparison/paper_figures/radius_selection_20261118/RESULTS.md and selections_new_rule.json.
+%
+% What changed: only the rule text, the selected-radius labels of 21 Neural CCG seeds (rho = 0 -> 0.03; R = 3 with and
+% without shipping) and the timing entry "Neural selected-radius CCG". No out-of-sample cost changed: in every
+% changed seed the tied radii 0, 0.001, 0.003, 0.01 and 0.03 returned the identical (nominal) policy.
+% Unchanged (keep as they are): Table tab:results_summary, Table tab:paired_validation and its paragraph, all
+% Protocol B figures (fixed radius grids over epsilon), Table tab:moreau_fulln_time, and every SRO-FA and SAA-kNN entry.
+%
+% Citations used below; add to refs.bib if absent:
+% @book{Breiman1984CART, author = {Breiman, Leo and Friedman, Jerome H. and Olshen, Richard A. and Stone, Charles J.},
+%   title = {Classification and Regression Trees}, publisher = {Wadsworth}, address = {Belmont, CA}, year = {1984}}
+% @book{Hastie2009ESL, author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+%   title = {The Elements of Statistical Learning: Data Mining, Inference, and Prediction}, edition = {2nd},
+%   publisher = {Springer}, address = {New York}, year = {2009}}
+
+% ---------------------------------------------------------------------------------------------------------------
+% (1) Replaces the paragraph "Learning-rate and radius selection" of Protocol A (Section sec:protocol_validation).
+% ---------------------------------------------------------------------------------------------------------------
+\paragraph{Learning-rate and radius selection.} For each experiment, sample size, and seed, the nominal policy
+is trained for each candidate learning rate, and the learning rate with the smallest mean validation cost is
+retained, with ties resolved in favor of the smaller value. Neural CCG is then run for every radius in the
+grid, including $\rho=0$. Radii whose returned policies have a mean validation cost within $10^{-6}$ (absolute)
+of the smallest one are treated as tied, and the largest tied radius is selected. Ties arise when the CCG
+stopping criterion is already met by the nominal policy at several small radii: these runs then return the
+same policy and attain identical validation costs. Among radii that the validation data cannot distinguish,
+the rule therefore reports the largest radius at which the returned policy passed the robustness check, in the
+spirit of the one-standard-error rule, which selects the most regularized among statistically
+indistinguishable models~\cite{Breiman1984CART,Hastie2009ESL}. All ties observed in our experiments are exact,
+and the smallest nonzero gap between the best and second-best validation cost of any reported selection is
+$1.6\times10^{-3}$, so the tolerance only guards against floating-point differences and never merges distinct
+scores. The selected policy is not retrained. This tie rule replaced an earlier rule that resolved ties in
+favor of the smaller radius; it was adopted after the test results had been examined, but it changes no
+out-of-sample cost, because every affected seed selects the identical policy (in Experiments~1 and~3, the
+selection of $21$ of the $60$ seed configurations moves from $\rho=0$ to $\rho=0.03$; no selection changes in
+Experiment~2 or for SRO-FA). Because the same validation observations select both the learning rate and the
+radius, the validation cost of the selected policy is optimistically biased; the methods are therefore
+compared only on the test set.
+
+% ---------------------------------------------------------------------------------------------------------------
+% (2) Replaces, in the SRO-FA benchmark description ("Protocol A."), the sentence about its radius selection.
+% ---------------------------------------------------------------------------------------------------------------
+\emph{Protocol A.} SRO-FA is trained on exactly the same training observations as Neural CCG, and its radius
+is selected for each seed on the same validation observations by the same rule (the largest radius within
+$10^{-6}$ of the smallest mean validation cost); no SRO-FA validation costs tie, so every SRO-FA selection
+is the unique minimizer.
+
+% ---------------------------------------------------------------------------------------------------------------
+% (3) Replaces the sentence before Table tab:moreau_cv_time that begins "The robust neural times correspond ...".
+% ---------------------------------------------------------------------------------------------------------------
+The robust neural times correspond to each seed's own validation-selected radius; they do not represent one
+common fixed radius. When the radii $0$ to $0.03$ tie, the selected run is the one at $\rho=0.03$, which returns
+the nominal policy after an adversarial verification pass, and its recorded time is that of this run.
+
+% ---------------------------------------------------------------------------------------------------------------
+% (4) Table tab:moreau_cv_time: replace only the row "Neural selected-radius CCG" (was 189.9 & 294.3 & 369.9).
+% ---------------------------------------------------------------------------------------------------------------
+Neural selected-radius CCG
+& 189.8 & 294.4 & 370.8 \\
+
+% ---------------------------------------------------------------------------------------------------------------
+% (5) Unchanged, for the record (values identical to four or more decimals under both rules):
+%   Table tab:results_summary, Neural CCG column: 20.545, 19.866, 19.682 / 73.028, 69.291, 68.247 /
+%   20.817, 20.342, 19.967; SRO-FA and SAA-kNN columns unchanged.
+%   Table tab:paired_validation: every entry unchanged.
+% ---------------------------------------------------------------------------------------------------------------

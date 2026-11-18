@@ -116,6 +116,23 @@ All paths below are relative to
 | — | SAA-kNN | Same policy in both protocols; see section 6 |
 
 Selections are sealed (`selections.json`, `selection_seal.json`) before any test cost is read.
+
+**Radius rule since 18 November 2026:** the largest radius within 1e-6 of the minimum validation score
+(`src/config.py::select_radius`, used by all three Protocol A pipelines and the legacy selectors). It replaced
+"exact tie → smaller radius". The sealed selection files above record the original runs under the old rule and stay
+unchanged. The current selections are re-derived from their stored validation scores, without retraining, by:
+
+```sh
+/data/home/aviyac/ap_env/bin/python -B comparison/paper_figures/radius_selection_20261118/reselect.py
+```
+
+Results are in [radius_selection_20261118/RESULTS.md](comparison/paper_figures/radius_selection_20261118/RESULTS.md).
+21 Neural CCG seeds (R=3, with and without shipping) move from ρ=0 to ρ=0.03. They are the identical policy, so no
+test cost changes. Paste-ready thesis text:
+`comparison/paper_figures/radius_selection_20261118/thesis_text_radius_selection_20261118.tex`. Radius selections
+run inside the original training campaigns keep the old rule: their sources are hash-pinned by the campaigns that
+trained the reported policies, and those selections are superseded and unreported.
+
 Targets in Git:
 
 - `green_validation_R3_R10_20261015/production_v1/results.json` (+ `RESULTS.md`)
@@ -185,7 +202,8 @@ signed-rank, Holm correction within each family.
 ```sh
 # Protocol B: matched radius and each method's hindsight-best radius; also R=10 adversary timing
 /data/home/aviyac/ap_env/bin/python comparison/paper_figures/paired_tests.py
-# Protocol A: NN vs SRO-FA at validation-selected radii
+# Protocol A: NN vs SRO-FA at validation-selected radii (reads radius_selection_20261118/selections_new_rule.json;
+# run reselect.py first)
 /data/home/aviyac/ap_env/bin/python comparison/paper_figures/statistical_tests_validation_20261103/paired_tests_validation.py
 ```
 

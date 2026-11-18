@@ -1,6 +1,9 @@
 """Paired NN vs SRO-FA tests at validation-selected radii (Protocol A), 3 November 2026.
 
 Read-only: uses saved per-seed test means; no training, selection or evaluation.
+Selections (2026-11-18): radii chosen by the shared rule "largest radius within 1e-6 of the minimum validation
+score", read from radius_selection_20261118/selections_new_rule.json (which reads the stored validation scores and
+stored test evaluations of the original runs; the previous rule was "exact tie -> smaller radius").
 Both methods train on the same 80% split rows (40/160/640) and select the radius
 per seed on the same 20% validation rows (10/40/160); test = seed 9999, 10,000 rows.
 Run: ../ap_env/bin/python comparison/paper_figures/statistical_tests_validation_20261103/paired_tests_validation.py
@@ -13,11 +16,7 @@ import numpy as np
 from scipy import stats
 
 HERE = Path(__file__).resolve().parent
-BASE = HERE.parents[2] / 'workspace/05_history/original_paths/retailers_moreau_training_selected'
-SOURCES = dict(
-    green_R3_R10=BASE / 'green_validation_R3_R10_20261015/production_v1/results.json',
-    green_shipping=BASE / 'shipping_validation_qpositive_20261006/production_v1/selected_test_results.json',
-    sro_fa=BASE / 'sro_nn_split_20261015/runs/production_v1/test_results.json')
+SOURCES = dict(selections=HERE.parent / 'radius_selection_20261118/selections_new_rule.json')
 CASES = (('R3', 'R=3'), ('R10', 'R=10'), ('shipping_R3', 'R=3 shipping'))
 SIZES = (50, 200, 800)
 SEEDS = range(10)
@@ -29,14 +28,11 @@ def sha256(path):
 
 def load():
     nn, fa = {}, {}
-    for row in json.loads(SOURCES['green_R3_R10'].read_text())['per_seed']:
-        nn[(f"R{row['R']}", row['Ntotal'], row['seed'])] = (row['selected_radius'], row['test_mean'])
-    for row in json.loads(SOURCES['green_shipping'].read_text())['rows']:
-        if row['method'] == 'green':
-            nn[('shipping_R3', row['Ntotal'], row['seed'])] = (row['selected_radius'], row['test_mean'])
-    for row in json.loads(SOURCES['sro_fa'].read_text())['results']:
-        if row['method'] == 'FA':
-            fa[(row['case'], row['n'], row['seed'])] = (row['rho'], row['test']['mean'])
+    case = {'R3': 'R3', 'R10': 'R10', 'R3_shipping': 'shipping_R3'}
+    for row in json.loads(SOURCES['selections'].read_text())['selections']:
+        target = {'neural_ccg': nn, 'sro_fa': fa}.get(row['source'])
+        if target is not None:
+            target[(case[row['setting']], row['N'], row['seed'])] = (row['new_radius'], row['new_test_mean'])
     expected = {(c, n, s) for c, _ in CASES for n in SIZES for s in SEEDS}
     if set(nn) != expected or set(fa) != expected:
         raise ValueError('Incomplete or unexpected per-seed coverage')
@@ -64,6 +60,7 @@ def main():
     rows = [{k: (float(v) if isinstance(v, np.floating) else v) for k, v in r.items()} for r in rows]
     (HERE / 'paired_tests_validation.json').write_text(json.dumps(dict(
         protocol='Protocol A: shared 80/20 split, per-seed validation-selected radius for both methods',
+        radius_selection_rule=json.loads(SOURCES['selections'].read_text())['rule'],
         difference='NN - SRO-FA (negative = NN cheaper)',
         tests='two-sided paired t-test; exact two-sided Wilcoxon signed-rank; n=10 seeds; '
               'one test per case/N, no multiplicity correction',
@@ -74,6 +71,7 @@ def main():
     lines = ['# Paired tests at validation-selected radii (Protocol A): NN vs SRO-FA', '',
              'Both methods: same 40/160/640 training rows, radius chosen per seed on the same 10/40/160',
              'validation rows, same 10,000-row seed-9999 test. Difference = NN - SRO-FA (negative = NN cheaper).',
+             'Radius rule (2026-11-18): largest radius within 1e-6 of the minimum validation score.',
              'Shipping: 0.1 per raw q2 > 0 for both. Read-only analysis of saved per-seed test means.', '',
              '| Setting | N | NN | SRO-FA | NN-SRO-FA (SE) | % | NN cheaper | t-test p | Wilcoxon p |',
              '|---|---:|---:|---:|---:|---:|---:|---:|---:|']

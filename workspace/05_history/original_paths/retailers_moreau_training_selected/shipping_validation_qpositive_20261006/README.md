@@ -1,5 +1,7 @@
 # Shipping validation-selected radii: strict positive shipping fees
 
+> **18 November 2026 — radius selection rule changed.** Validation-based radius selection now uses the shared rule "largest radius within 1e-6 of the minimum validation score" (`src/config.py`), replacing "exact tie -> smaller radius". The sealed outputs of this run record the old rule and are unchanged; the current selections, which change no test cost, are in `comparison/paper_figures/radius_selection_20261118/`.
+
 Authorized 6 October 2026. Evaluate existing green STOP and historical blue
 policies only. No retraining, solver substitution, altered stopping criteria,
 test-driven radius selection, refitting or silent omission of failures.

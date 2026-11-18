@@ -1,20 +1,13 @@
 {
  "protocol": "Protocol A: shared 80/20 split, per-seed validation-selected radius for both methods",
+ "radius_selection_rule": "largest radius within 1e-6 of the minimum validation score",
  "difference": "NN - SRO-FA (negative = NN cheaper)",
  "tests": "two-sided paired t-test; exact two-sided Wilcoxon signed-rank; n=10 seeds; one test per case/N, no multiplicity correction",
  "caveats": "Validation rows also selected the NN learning rate; test set (seed 9999) previously inspected: descriptive.",
  "sources": {
-  "green_R3_R10": {
-   "path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_validation_R3_R10_20261015/production_v1/results.json",
-   "sha256": "aea4eec7ed8e65436688af5e69aa4288533e333be7b8df0208c5ead6f971504e"
-  },
-  "green_shipping": {
-   "path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/selected_test_results.json",
-   "sha256": "187838175d510e8b9ff76fdb0c06278a4d29db8de10f371dfc49e2c7be9bf17d"
-  },
-  "sro_fa": {
-   "path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/test_results.json",
-   "sha256": "187c0885f4a53359854aca2a0d8b64ba7cbc09abf08673b74dcf9889b8ec4c70"
+  "selections": {
+   "path": "/data/home/aviyac/retailers_experiment/comparison/paper_figures/radius_selection_20261118/selections_new_rule.json",
+   "sha256": "9eb29c81ad70a7a42b6fcbc13908722ee70412f3ee89acf5a0534ef65710f603"
   }
  },
  "results": [
@@ -38,10 +31,10 @@
     1.5,
     0.4,
     0.2,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
     0.4,
     0.2
    ],
@@ -104,9 +97,9 @@
     0.2,
     0.4,
     0.4,
-    0.0,
-    0.0,
-    0.0,
+    0.03,
+    0.03,
+    0.03,
     0.2
    ],
    "sro_fa_selected_radius": [
@@ -163,15 +156,15 @@
    "wilcoxon_exact_p": 0.001953125,
    "nn_selected_radius": [
     0.4,
-    0.0,
-    0.0,
-    0.0,
+    0.03,
+    0.03,
+    0.03,
     0.2,
     0.4,
     0.4,
     0.7,
     0.4,
-    0.0
+    0.03
    ],
    "sro_fa_selected_radius": [
     0.5,
@@ -419,15 +412,15 @@
    "wilcoxon_exact_p": 0.001953125,
    "nn_selected_radius": [
     0.4,
-    0.0,
-    0.0,
+    0.03,
+    0.03,
     0.7,
-    0.0,
+    0.03,
     0.2,
-    0.0,
+    0.03,
     0.7,
-    0.0,
-    0.0
+    0.03,
+    0.03
    ],
    "sro_fa_selected_radius": [
     0.5,
@@ -483,12 +476,12 @@
    "wilcoxon_exact_p": 0.001953125,
    "nn_selected_radius": [
     0.4,
-    0.0,
+    0.03,
     0.2,
     0.4,
     0.7,
-    0.0,
-    0.0,
+    0.03,
+    0.03,
     0.2,
     0.4,
     0.2
@@ -551,7 +544,7 @@
     0.4,
     0.2,
     0.2,
-    0.0,
+    0.03,
     0.2,
     0.4,
     0.2,

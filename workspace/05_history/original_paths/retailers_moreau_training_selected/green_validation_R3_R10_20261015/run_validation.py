@@ -4,7 +4,8 @@ No training. Each saved STOP checkpoint (stopping_checkpoint_20260928 selection
 manifest) is replayed on its own held-out rows (Ntotal/5) with the existing strict
 common Gurobi projection evaluator (src.evaluate.evaluate_policy, reached through
 the replay module run.py). Per (R, N, seed) the radius with minimum validation mean
-is chosen (exact tie -> smaller radius); all 60 choices are SHA256-sealed before any
+is chosen by src.config.RADIUS_SELECTION_RULE (since 2026-11-18: the largest radius within 1e-6 of the
+minimum validation mean; originally exact tie -> smaller radius); all 60 choices are SHA256-sealed before any
 test cost is opened. Test costs are then looked up from the existing seed-9999,
 10,000-row STOP replay and re-verified against its raw arrays/journals.
 """
@@ -177,10 +178,18 @@ def prepare(output, manifest, bindings):
     return groups
 
 
+def _rule():
+    """Shared radius-selection rule (src/config.py), 2026-11-18."""
+    if str(run.ROOT) not in sys.path:
+        sys.path.insert(0, str(run.ROOT))
+    return importlib.import_module('src.config')
+
+
 def choose(arms):
     require(sorted(a['radius'] for a in arms) == RADII and all(a['status'] == 'completed'
             and math.isfinite(a['mean_validation']) for a in arms), 'Incomplete/failed grid; no selection')
-    return min(arms, key=lambda a: (a['mean_validation'], a['radius']))
+    chosen = _rule().select_radius({a['radius']: a['mean_validation'] for a in arms})
+    return next(a for a in arms if a['radius'] == chosen)
 
 
 def seal_selection(output, grids):
@@ -195,7 +204,7 @@ def seal_selection(output, grids):
                             selected_id=w['id'], validation_mean=w['mean_validation'],
                             state_sha256=w['state_sha256'], checkpoint_sha256=w['checkpoint_sha256'],
                             validation_means={str(a['radius']): a['mean_validation'] for a in g['arms']},
-                            rule='minimum validation mean; exact tie -> smaller radius'))
+                            rule=_rule().RADIUS_SELECTION_RULE))
     require(len(choices) == 60, 'Need 60 choices')
     return run.seal(output / 'selections.json', dict(status='sealed', sealed_at_utc=utc(),
         test_costs_accessed=False, inputs_sha256=sha(output / 'inputs.json'), choices=choices))
@@ -251,8 +260,8 @@ def report(output, rows, grids, summary):
     lines = ['# GREEN STOP (no shipping): validation-selected radius, R3/R10', '',
              "Saved STOP policies only; no retraining. Validation = each seed's own held-out Ntotal/5 rows "
              '(split seed 100000+s), which were already used for nominal LR selection (not untouched). '
-             'Strict common Gurobi projection (OPTIMAL, residual <= 1e-6). Minimum validation mean, '
-             'exact tie -> smaller radius. 60 choices sealed (SHA256) before test lookup. Test = existing '
+             'Strict common Gurobi projection (OPTIMAL, residual <= 1e-6). Selection: largest radius within '
+             '1e-6 of the minimum validation mean. 60 choices sealed (SHA256) before test lookup. Test = existing '
              'seed-9999 10,000-row replay (historically inspected; descriptive, not a fresh holdout).', '',
              '| R | Ntotal | Seeds | Mean selected test cost | Sample SD | Selected-radius counts |',
              '|---:|---:|---:|---:|---:|---|']

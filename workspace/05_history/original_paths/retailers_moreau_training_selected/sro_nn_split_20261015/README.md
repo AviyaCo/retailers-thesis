@@ -1,5 +1,7 @@
 # SRO-FA and SRO-FA+LDR on the NN split — 15 October 2026
 
+> **18 November 2026 — radius selection rule changed.** Validation-based radius selection now uses the shared rule "largest radius within 1e-6 of the minimum validation score" (`src/config.py`), replacing "exact tie -> smaller radius". The sealed outputs of this run record the old rule and are unchanged; the current selections, which change no test cost, are in `comparison/paper_figures/radius_selection_20261118/`.
+
 Protocol, methods and caveats are in the [run.py](run.py) docstring. In short:
 SRO-FA (R3, R10, shipping R3) and SRO-FA with linear decision rules (R3 only)
 are trained on exactly the NN's 40/160/640 training rows. The radius is selected

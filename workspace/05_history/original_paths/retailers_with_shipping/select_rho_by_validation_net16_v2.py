@@ -1,6 +1,9 @@
 """Select fixed-shipping net16 radii by independent validation."""
 
 import json
+import sys as _sys
+_sys.path.insert(0, '/data/home/aviyac/retailers_experiment')
+from src.config import RADIUS_SELECTION_RULE, select_radius  # shared radius rule, 2026-11-18
 import time
 from collections import Counter
 from datetime import datetime, timezone
@@ -243,9 +246,7 @@ def select_size(n_train, config):
             validation_costs[rho] = mean_cost(
                 model, xi1_validation, xi2_validation
             )
-        selected_rho = min(
-            validation_costs, key=lambda rho: (validation_costs[rho], rho)
-        )
+        selected_rho = select_radius(validation_costs)
         selected_rhos.append(selected_rho)
         per_seed[str(seed)] = {
             "N_val": n_validation,
@@ -312,7 +313,7 @@ def main():
             "seed_val_base": VALIDATION_SEED_BASE,
             "seeds": SEEDS,
             "rho_candidates": "complete positive radii with rho <= 1.5",
-            "tie_break": "smaller rho",
+            "tie_break": RADIUS_SELECTION_RULE,
             "test_set": "10k seed-9999 artifact opened only after all validation selections",
             "retraining_after_selection": False,
             "shipping_cost": "hard charge 0.1 per retailer when Q2 > 1e-6",

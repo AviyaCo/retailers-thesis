@@ -10,6 +10,9 @@ Output: retailers_problem/R3/rho_validation_results_net16_v2.json
 """
 
 import json
+import sys as _sys
+_sys.path.insert(0, '/data/home/aviyac/retailers_experiment')
+from src.config import RADIUS_SELECTION_RULE, select_radius  # shared radius rule, 2026-11-18
 import os
 import time
 from collections import Counter
@@ -196,7 +199,7 @@ def evaluate_n(n_train, config):
         if not val_costs:
             raise RuntimeError(f"No validation candidates found for N={n_train}, seed={seed}")
 
-        selected_rho = min(val_costs, key=lambda rho: (val_costs[rho], rho))
+        selected_rho = select_radius(val_costs)
         selected_rhos.append(selected_rho)
         selected_oos.append(oos_costs[selected_rho])
         per_seed[str(seed)] = {
@@ -231,6 +234,7 @@ def main():
             "protocol": "per_seed_independent_validation_rho_selection",
             "validation_fraction": VALIDATION_FRACTION,
             "validation_size_rule": "ceil(validation_fraction * N_train)",
+            "selection_rule": RADIUS_SELECTION_RULE,
             "N_val_by_N": {str(n_train): validation_size(n_train) for n_train in CONFIGS},
             "seed_val_base": SEED_VAL_BASE,
             "seeds": SEEDS,

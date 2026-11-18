@@ -1,5 +1,7 @@
 # Paper comparison: Moreau NN, SRO-FA and references
 
+> **Radius selection (2026-11-18):** Protocol A now selects the largest radius within 1e-6 of the minimum validation score. Re-selection, per-seed changes and the paste-ready thesis text: `radius_selection_20261118/`. No figure and no test cost changes. The Protocol A paired tests (`statistical_tests_validation_20261103/`) were regenerated from the new selections, with identical statistics.
+
 > **FINAL (2026-11-02):** `published_straight_epsilon/comparison_R3.*`, `published_straight_epsilon/comparison_R10.*` and
 > `shipping_published_straight_epsilon/comparison_shipping.*` are the final paper figures (`render_epsilon.py`). They are
 > identical to `published/` and `shipping_published/` (2026-10-26, kept unchanged) except the x-axis label: straight

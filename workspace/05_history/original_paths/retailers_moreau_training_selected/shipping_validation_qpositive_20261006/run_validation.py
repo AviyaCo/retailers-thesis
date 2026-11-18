@@ -39,12 +39,21 @@ def array_hash(*arrays):
     return h.hexdigest()
 
 
+def _rule():
+    """Shared radius-selection rule (retailers_experiment/src/config.py), 2026-11-18."""
+    shared = '/data/home/aviyac/retailers_experiment'
+    if shared not in sys.path:
+        sys.path.insert(0, shared)
+    return importlib.import_module('src.config')
+
+
 def choose(rows, radii):
     c.check(len(rows) == len(radii) and sorted(r['radius'] for r in rows) == sorted(radii),
             'Incomplete or duplicate validation grid')
     c.check(all(r['status'] == 'completed' and math.isfinite(r['mean_validation']) for r in rows),
             'Failed/nonfinite validation arm; no partial selection')
-    return min(rows, key=lambda r: (r['mean_validation'], r['radius']))
+    chosen = _rule().select_radius({r['radius']: r['mean_validation'] for r in rows})
+    return next(r for r in rows if r['radius'] == chosen)
 
 
 def checked_read(path, expected):
@@ -252,7 +261,7 @@ def seal_selection(output, groups, completed):
             selected_radius=winner['radius'], selected_id=winner['id'],
             validation_mean=winner['mean_validation'], state_sha256=spec['state_sha256'],
             checkpoint_sha256=spec['checkpoint_sha256'], validation_result=compact,
-            selection_rule='minimum validation mean, smaller radius on exact tie',
+            selection_rule=_rule().RADIUS_SELECTION_RULE,
             validation_wall_time_s=result['wall_time_s']))
     path = output / 'selections.json'
     c.write(path, dict(status='sealed', sealed_at_utc=c.utc(), test_costs_accessed=False,
@@ -314,7 +323,7 @@ def report(output, results, groups, completed, summary):
         'All 60 choices were sealed before test-cost lookup. No retraining, clipping, fallback or test-driven selection.', '',
         'Green: saved STOP policies, existing 10/40/160-row holdout (already used for LR selection), '
         'nine radii including zero. Blue: saved historical policies, independent 13/50/200-row validation '
-        'sets with seed 88880+s, original 15 positive radii. Seeds 0–9; exact ties use smaller radius; no refit.', '',
+        'sets with seed 88880+s, original 15 positive radii. Seeds 0–9; largest radius within 1e-6 of the minimum validation mean; no refit.', '',
         'The inspected historical 10,000-row seed-9999 test and test-informed historical grids are descriptive, '
         'not fresh confirmatory evidence. Green retains the mixed 265-original/5-advisory cohort. '
         'Blue retains historical non-converged/capped policies where present; no post-hoc filtering. '

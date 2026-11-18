@@ -103,5 +103,20 @@ class ConfigTests(unittest.TestCase):
             torch.set_rng_state(saved_torch)
 
 
+class RadiusSelectionTests(unittest.TestCase):
+    def test_largest_radius_among_ties_within_tolerance(self):
+        from src.config import RADIUS_SELECTION_RULE, select_radius
+        self.assertEqual(RADIUS_SELECTION_RULE, 'largest radius within 1e-6 of the minimum validation score')
+        # Exact tie of identical (nominal) policies at the minimum: the largest tied radius wins.
+        self.assertEqual(select_radius({0.: 19.5, .001: 19.5, .03: 19.5, .2: 19.6}), .03)
+        # A gap of 5e-7 counts as tied; a gap of 2e-6 does not.
+        self.assertEqual(select_radius({.2: 19., .4: 19. + 5e-7}), .4)
+        self.assertEqual(select_radius({.2: 19., .4: 19. + 2e-6}), .2)
+        # A unique minimum is unaffected; string keys are returned as given.
+        self.assertEqual(select_radius({'0.0': 20., '0.4': 19., '1.5': 21.}), '0.4')
+        with self.assertRaises(ValueError):
+            select_radius({.1: float('nan')})
+
+
 if __name__ == '__main__':
     unittest.main()

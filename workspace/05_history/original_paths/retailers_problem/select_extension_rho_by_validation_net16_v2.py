@@ -7,6 +7,9 @@ cost. No model is retrained.
 """
 
 import json
+import sys as _sys
+_sys.path.insert(0, '/data/home/aviyac/retailers_experiment')
+from src.config import RADIUS_SELECTION_RULE, select_radius  # shared radius rule, 2026-11-18
 import os
 import time
 from collections import Counter
@@ -234,9 +237,7 @@ def evaluate_training_size(n_train, experiment, raw_config):
                 q10, q1r, q2, xi1, xi2, experiment["shipping"]
             )
 
-        selected_rho = min(
-            validation_costs, key=lambda rho: (validation_costs[rho], rho)
-        )
+        selected_rho = select_radius(validation_costs)
         selected_rhos.append(selected_rho)
         per_seed[str(seed)] = {
             "N_val": n_validation,
@@ -299,7 +300,7 @@ def run_experiment(name, experiment):
             "seed_val_base": SEED_VAL_BASE,
             "seeds": SEEDS,
             "rho_candidates": "common completed positive radii with rho <= 1.5",
-            "tie_break": "smaller rho",
+            "tie_break": RADIUS_SELECTION_RULE,
             "test_set": "saved 10k OOS from seed 9999; read only after all rho selections",
             "retraining_after_selection": False,
             "shipping_cost": (

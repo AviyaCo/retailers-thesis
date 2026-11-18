@@ -12,15 +12,18 @@ class ValidationTests(unittest.TestCase):
                 for r, cost in [(0., 20.), (.2, 19.), (.4, 19.)]]
 
     def test_validation_minimum_and_exact_tie(self):
-        self.assertEqual(v.choose(self.arms(), [0., .2, .4])['radius'], .2)
+        # Rule since 2026-11-18: the largest radius within 1e-6 of the minimum validation mean.
+        self.assertEqual(v.choose(self.arms(), [0., .2, .4])['radius'], .4)
 
-    def test_no_approximate_tie(self):
+    def test_tie_tolerance(self):
         rows = self.arms()
-        rows[2]['mean_validation'] -= 1e-12
+        rows[1]['mean_validation'] -= 5e-7
         self.assertEqual(v.choose(rows, [0., .2, .4])['radius'], .4)
+        rows[1]['mean_validation'] -= 2e-6
+        self.assertEqual(v.choose(rows, [0., .2, .4])['radius'], .2)
 
     def test_order_independent(self):
-        self.assertEqual(v.choose(self.arms()[::-1], [0., .2, .4])['radius'], .2)
+        self.assertEqual(v.choose(self.arms()[::-1], [0., .2, .4])['radius'], .4)
 
     def test_missing_arm_rejected(self):
         with self.assertRaises(ValueError):
@@ -50,7 +53,7 @@ class ValidationTests(unittest.TestCase):
         rows = self.arms()
         for i, row in enumerate(rows):
             row['test_mean'] = -1e9 if i == 0 else 1e9
-        self.assertEqual(v.choose(rows, [0., .2, .4])['radius'], .2)
+        self.assertEqual(v.choose(rows, [0., .2, .4])['radius'], .4)  # .2/.4 tie -> larger (rule of 2026-11-18)
 
     def test_strict_positive_shipping(self):
         np = v.c.np

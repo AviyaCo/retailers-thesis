@@ -10,7 +10,7 @@ Method:
     - Designate points [40:50] (last 10) as a held-out validation set
     - For each rho, load the final robust model and evaluate its cost
       on the 10 validation points
-    - Select rho* = argmin over rho of validation cost
+    - Select rho* by the shared rule: largest rho within 1e-6 of the minimum validation cost (2026-11-18)
   Report:
     - OOS (10k) cost at the per-seed selected rho*  (CV selection)
     - Compare to oracle selection (best rho per seed by test OOS)
@@ -29,6 +29,9 @@ Output: printed table + cv_rho_results.json
 """
 
 import os, json
+import sys as _sys
+_sys.path.insert(0, '/data/home/aviyac/retailers_experiment')
+from src.config import RADIUS_SELECTION_RULE, select_radius  # shared radius rule, 2026-11-18
 import numpy as np
 from scipy.stats import truncnorm
 import torch, torch.nn as nn
@@ -198,7 +201,7 @@ for seed in SEEDS:
         continue
 
     # CV selection: pick rho with lowest validation cost
-    cv_rho   = min(val_costs, key=val_costs.get)
+    cv_rho   = select_radius(val_costs)
     cv_val   = val_costs[cv_rho]
     cv_oos   = oos_costs[cv_rho]
 

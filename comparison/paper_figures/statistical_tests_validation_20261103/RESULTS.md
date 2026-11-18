@@ -2,6 +2,7 @@
 
 Both methods: same 40/160/640 training rows, radius chosen per seed on the same 10/40/160
 validation rows, same 10,000-row seed-9999 test. Difference = NN - SRO-FA (negative = NN cheaper).
+Radius rule (2026-11-18): largest radius within 1e-6 of the minimum validation score.
 Shipping: 0.1 per raw q2 > 0 for both. Read-only analysis of saved per-seed test means.
 
 | Setting | N | NN | SRO-FA | NN-SRO-FA (SE) | % | NN cheaper | t-test p | Wilcoxon p |

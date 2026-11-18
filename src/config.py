@@ -29,6 +29,23 @@ SIZES = (50, 200, 800)
 SEEDS = tuple(range(10))
 LR_GRID = (.005, .01, .05)
 RADII = (0., .001, .003, .01, .03, .2, .4, .7, 1.5)
+# Radius selection (decided 2026-11-18; replaces "exact tie -> smaller radius"). Radii whose validation scores are
+# within RADIUS_TIE_TOLERANCE (absolute) of the minimum are tied; the largest tied radius is selected. In the retailer
+# grids every tie observed so far is an exact tie between radii whose CCG returned the same (nominal) policy.
+RADIUS_TIE_TOLERANCE = 1e-6
+RADIUS_SELECTION_RULE = 'largest radius within 1e-6 of the minimum validation score'
+
+
+def select_radius(scores):
+    """Selected radius for a mapping radius -> validation score (lower is better) under RADIUS_SELECTION_RULE.
+
+    Keys may be floats or numeric strings; the key is returned as given. Scores must all be finite."""
+    scores = dict(scores)
+    if not scores or not all(math.isfinite(float(v)) for v in scores.values()):
+        raise ValueError('radius selection needs at least one score and only finite scores')
+    best = min(float(v) for v in scores.values())
+    return max((k for k, v in scores.items() if float(v) - best <= RADIUS_TIE_TOLERANCE), key=float)
+
 MAX_MP = 40
 MAX_EPOCHS = 3000
 PATIENCE = 300
@@ -97,7 +114,7 @@ class Config:
             ccg_selection='stopping checkpoint after inclusive assessed-prefix validation; no earlier AP minimum',
             green_gap_tolerance=.01, green_gap_floor=1e-9,
             validation='no validation calls inside training or CCG; only after complete CCG sweep',
-            radius_selection='all approved converged configurations required; minimum validation mean, smaller radius tie',
+            radius_selection='all approved converged configurations required; ' + RADIUS_SELECTION_RULE,
             max_mp=MAX_MP, separation_tolerance=.01, membership_tolerance=1e-9,
             insertion_tolerance=1e-4, pool_replay_tolerance=1e-6,
             ap_replay_tolerance=1e-4, ap_mip_gap=1e-4, capacity_buffer=0.,
