@@ -191,7 +191,9 @@ class BoundedArchiveTest(unittest.TestCase):
             job = selection._terminal_job(old, chosen, method, record, original, green, cap, backend)
             self.assertEqual(job['selected_candidate_id'], job['stopping_candidate_id'])
             self.assertEqual(job['pool_sha256'], prefix[job['stopping_candidate_id']]['pool_sha256'])
-            self.assertTrue(Path(job['checkpoint']).is_relative_to(selection.ROOT / 'archive'))
+            # Since the 5 October 2026 consolidation, archive/ aliases resolve to the canonical files under
+            # workspace/; the requirement is that the checkpoint comes from this collection, not an external path.
+            self.assertTrue(Path(job['checkpoint']).is_relative_to(selection.ROOT))
             self.assertTrue(job['converged'])
         self.assertFalse(set(cap.verified) & cap.forbidden)
 
