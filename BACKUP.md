@@ -51,8 +51,10 @@ and copy paths inside the backup. A saved-data-only local recreation took
 2.830926 seconds and produced a PNG byte-identical to the published original.
 See [shipping/README.md](shipping/README.md) for method scope and local plotting.
 
-For the approved code/plots-only remote Git backup and the distinction from
-the full local evidence backup, see [GIT_BACKUP.md](GIT_BACKUP.md).
+The code, documentation, figures and small result files are published in the public repository
+[AviyaCo/retailers-thesis](https://github.com/AviyaCo/retailers-thesis) (since 18 November 2026; how to update it:
+[REPRODUCE.md](REPRODUCE.md), "Updating this repository"). For what Git does and does not contain, and the
+distinction from the full local evidence backup, see [GIT_BACKUP.md](GIT_BACKUP.md).
 
 ## Verification
 

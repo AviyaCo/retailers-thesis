@@ -1,5 +1,9 @@
 # Retailers
 
+**Public repository (since 18 November 2026):** [AviyaCo/retailers-thesis](https://github.com/AviyaCo/retailers-thesis).
+After every Retailers change, publish it as described in [REPRODUCE.md](../REPRODUCE.md), "Updating this
+repository". How to rerun everything and set up the environment: [REPRODUCE.md](../REPRODUCE.md).
+
 Open [Retailers.code-workspace](../../Retailers.code-workspace) in VS Code using
 **File → Open Workspace from File**. All six original Retailers trees now live
 physically in this collection under History. The old top-level directories are
