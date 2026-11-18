@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_stopping_20261005/run_comparison.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_stopping_20261005/production_v2"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_stopping_20261005",
+  "session": "shipping_stop_v2_20261005",
+  "log": "/data/home/aviyac/retailers_moreau_training_selected/shipping_stopping_20261005/production_v2.log",
+  "start_utc": "2026-10-05T10:18:15.631878+00:00",
+  "returncode": 0,
+  "status": "completed",
+  "wall_time_s": 345.90767011401476,
+  "end_utc": "2026-10-05T10:24:01.539553+00:00"
+}

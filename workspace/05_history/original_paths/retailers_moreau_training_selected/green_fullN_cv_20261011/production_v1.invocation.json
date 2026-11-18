@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "started_at_utc": "2026-10-11T09:55:23.766290+00:00",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "/data/home/aviyac/retailers_experiment/.consolidation_20261005/run_legacy.py",
+    "--cwd",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011",
+    "--write",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/runs",
+    "--",
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "runner.py",
+    "--output",
+    "runs/production_v1",
+    "--workers",
+    "16"
+  ],
+  "exact_command": "/data/home/aviyac/ap_env/bin/python -B /data/home/aviyac/retailers_experiment/.consolidation_20261005/run_legacy.py --cwd /data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011 --write /data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/runs -- /data/home/aviyac/ap_env/bin/python -B -u runner.py --output runs/production_v1 --workers 16",
+  "cwd": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011",
+  "log": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/production_v1.log",
+  "tmux": "/tmp/tmux-1754/default,1542980,0",
+  "workers": 16,
+  "child_exit_code": 143,
+  "timing_scope": "whole namespace invocation including startup; per-model times are in child artifacts",
+  "ended_at_utc": "2026-10-14T16:07:33.643182+00:00",
+  "wall_time_s": 281529.87883901794
+}

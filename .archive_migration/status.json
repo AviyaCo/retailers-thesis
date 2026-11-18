@@ -1,0 +1,125 @@
+{
+  "status": "completed",
+  "start_utc": "2026-09-28T09:37:49.957335+00:00",
+  "clock": "time.perf_counter",
+  "timing_unit": "seconds",
+  "kind": "file migration, not experiment",
+  "source_home": "/data/home/aviyac",
+  "verification_threads": 4,
+  "originals_modified": false,
+  "copied_roots": [
+    {
+      "path": "hydro_rcr_rescaled/.moreau_diagnostic_deps",
+      "wall_time_s": 0.147325299680233
+    },
+    {
+      "path": "retailers_moreau/retailers_base/N50_R3/net16_v2_train40_val10",
+      "wall_time_s": 2.5566412582993507
+    },
+    {
+      "path": "retailers_moreau_N50_R3_net16_v2/baseline.py",
+      "wall_time_s": 0.0042976438999176025
+    },
+    {
+      "path": "retailers_moreau_training_selected/N50_R3_train40_val10",
+      "wall_time_s": 16.095868192613125
+    },
+    {
+      "path": "retailers_moreau_training_selected/black_continuation_R3_R10_20260925",
+      "wall_time_s": 226.42506643384695
+    },
+    {
+      "path": "retailers_moreau_training_selected/green_R10_N50_N200_N800_20260924",
+      "wall_time_s": 268.2162248939276
+    },
+    {
+      "path": "retailers_moreau_training_selected/green_R3_N200_N800_20260923",
+      "wall_time_s": 211.9451423883438
+    },
+    {
+      "path": "retailers_problem/R10/N200/rho_sweep_net16_v2",
+      "wall_time_s": 2.4873541854321957
+    },
+    {
+      "path": "retailers_problem/R10/N200/saainit_net16_v2",
+      "wall_time_s": 0.15096259862184525
+    },
+    {
+      "path": "retailers_problem/R10/N50/rho_sweep_net16_v2",
+      "wall_time_s": 3.576226904988289
+    },
+    {
+      "path": "retailers_problem/R10/N50/saainit_net16_v2",
+      "wall_time_s": 0.17623459920287132
+    },
+    {
+      "path": "retailers_problem/R10/N800/rho_sweep_net16_v2",
+      "wall_time_s": 3.810605637729168
+    },
+    {
+      "path": "retailers_problem/R10/N800/saainit_net16_v2",
+      "wall_time_s": 0.0646558329463005
+    },
+    {
+      "path": "retailers_problem/R10/sro_fa",
+      "wall_time_s": 0.03671084716916084
+    },
+    {
+      "path": "retailers_problem/R3/N200/rho_sweep_net16_v2",
+      "wall_time_s": 2.0276081189513206
+    },
+    {
+      "path": "retailers_problem/R3/N200/saainit_net16_v2",
+      "wall_time_s": 0.09083854407072067
+    },
+    {
+      "path": "retailers_problem/R3/N200/sro_fa",
+      "wall_time_s": 0.013581983745098114
+    },
+    {
+      "path": "retailers_problem/R3/N50/nominal_timing_net16_v2",
+      "wall_time_s": 0.07676700875163078
+    },
+    {
+      "path": "retailers_problem/R3/N50/rho_sweep_net16_v2",
+      "wall_time_s": 2.302885051816702
+    },
+    {
+      "path": "retailers_problem/R3/N50/saainit_net16_v2",
+      "wall_time_s": 0.05485396832227707
+    },
+    {
+      "path": "retailers_problem/R3/N50/sro_fa",
+      "wall_time_s": 0.013236548751592636
+    },
+    {
+      "path": "retailers_problem/R3/N800/rho_sweep_net16_v2",
+      "wall_time_s": 2.314285956323147
+    },
+    {
+      "path": "retailers_problem/R3/N800/saainit_net16_v2",
+      "wall_time_s": 0.1439581848680973
+    },
+    {
+      "path": "retailers_problem/R3/N800/sro_fa",
+      "wall_time_s": 0.03695569932460785
+    },
+    {
+      "path": "retailers_problem/R3/selected_timing_net16_v2_run2",
+      "wall_time_s": 0.5207781456410885
+    },
+    {
+      "path": "retailers_problem/plot_combined_R3_net16v2.py",
+      "wall_time_s": 0.01705891638994217
+    }
+  ],
+  "verified_files": 1205012,
+  "files_expected": 1205012,
+  "bytes_expected": 237039626798,
+  "phase": "completed",
+  "archive": "archive",
+  "external_navigation_links": 0,
+  "inventory_sha256": "426060f853f8ef8bffb7ac393c8b804d584a4fa2e675dcb7e758ed3d7e9e8f53",
+  "end_utc": "2026-09-28T10:12:13.278761+00:00",
+  "wall_time_s": 2063.321463998407
+}

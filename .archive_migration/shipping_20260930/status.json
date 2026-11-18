@@ -1,0 +1,133 @@
+{
+  "status": "completed",
+  "start_utc": "2026-09-30T11:37:54.759028+00:00",
+  "kind": "backup migration and audit; not a research experiment",
+  "clock": "time.perf_counter",
+  "timing_unit": "seconds",
+  "originals_modified": false,
+  "existing_archive_overwritten": false,
+  "copied_roots": [
+    {
+      "path": "retailers_with_shipping",
+      "wall_time_s": 11.634710523008835
+    },
+    {
+      "path": "retailers_moreau_training_selected/SHIPPING_EPSILON_SUPERVISOR_NOTE_20260925.md",
+      "wall_time_s": 0.004602266999427229
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_advisory_continue_20260928",
+      "wall_time_s": 2.443115343005047
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_ap_replay_20260928",
+      "wall_time_s": 0.12202745900140144
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_approximate_guard_20260926",
+      "wall_time_s": 0.8888944579957752
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_comparison_20260928",
+      "wall_time_s": 58.268465223998646
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925",
+      "wall_time_s": 0.07977465400472283
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_exact_activation_diagnostic_20260924",
+      "wall_time_s": 0.04032262900727801
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_green_launch_20260925",
+      "wall_time_s": 0.6832429779897211
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_live_green_20260926",
+      "wall_time_s": 276.68022060999647
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924",
+      "wall_time_s": 9.24161676800577
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_projection_diagnostic_20260925",
+      "wall_time_s": 0.7753157020051731
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_replay_observed_20260925",
+      "wall_time_s": 1.1311914149991935
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_replay_observed_complete_20260925",
+      "wall_time_s": 2.126258627991774
+    },
+    {
+      "path": "retailers_moreau_training_selected/shipping_replay_tolerance_20260925",
+      "wall_time_s": 0.0031312360079027712
+    }
+  ],
+  "verified_files": 205290,
+  "files_expected": 205290,
+  "bytes_expected": 23950539995,
+  "phase": "completed",
+  "covered_files": 1409990,
+  "changed_files": 0,
+  "missing_within_scope": 0,
+  "uncovered_files": 7184,
+  "uncovered_plots": 38,
+  "source_audit": {
+    "retailers_moreau": {
+      "files": 10386,
+      "covered": 10386,
+      "uncovered": 0,
+      "missing_within_scope": 0,
+      "changed": 0,
+      "uncovered_plots": 0
+    },
+    "retailers_moreau_N50_R3_net16_v2": {
+      "files": 12,
+      "covered": 1,
+      "uncovered": 11,
+      "missing_within_scope": 0,
+      "changed": 0,
+      "uncovered_plots": 0
+    },
+    "retailers_moreau_training_selected": {
+      "files": 1380887,
+      "covered": 1380885,
+      "uncovered": 2,
+      "missing_within_scope": 0,
+      "changed": 0,
+      "uncovered_plots": 0
+    },
+    "retailers_problem": {
+      "files": 19326,
+      "covered": 12174,
+      "uncovered": 7152,
+      "missing_within_scope": 0,
+      "changed": 0,
+      "uncovered_plots": 38
+    },
+    "retailers_scs_vs_moreau": {
+      "files": 19,
+      "covered": 0,
+      "uncovered": 19,
+      "missing_within_scope": 0,
+      "changed": 0,
+      "uncovered_plots": 0
+    },
+    "retailers_with_shipping": {
+      "files": 6544,
+      "covered": 6544,
+      "uncovered": 0,
+      "missing_within_scope": 0,
+      "changed": 0,
+      "uncovered_plots": 0
+    }
+  },
+  "audit_guarantee": "Existing copies: size/mtime comparison; mismatches hashed. Shipping: all source/copy SHA256 pairs verified. Point-in-time, not an atomic snapshot.",
+  "end_utc": "2026-09-30T11:45:57.783974+00:00",
+  "wall_time_s": 483.0250479289971
+}

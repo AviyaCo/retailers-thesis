@@ -1,0 +1,13 @@
+{
+  "Hydro": {
+    "navigation_links_internal_and_valid": 48,
+    "workspace_and_tasks_JSON": "valid"
+  },
+  "Retailers": {
+    "navigation_links_internal_and_valid": 64,
+    "workspace_and_tasks_JSON": "valid"
+  },
+  "all_document_links": "valid",
+  "canonical_roots_unchanged": 23,
+  "wall_seconds": 34.27880848199129
+}

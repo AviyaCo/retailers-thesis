@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "start_utc": "2026-09-16T13:30:10.560961+00:00",
+  "end_utc": "2026-09-16T13:30:50.370934+00:00",
+  "wall_time_s": 39.8100101351738,
+  "timing_clock": "time.perf_counter",
+  "timing_unit": "seconds",
+  "phases": {
+    "rendering": {
+      "status": "completed",
+      "start_utc": "2026-09-16T13:30:40.115617+00:00",
+      "end_utc": "2026-09-16T13:30:40.640819+00:00",
+      "wall_time_s": 0.5252233892679214
+    }
+  },
+  "scope": "This reporting invocation through output hashing; excludes final timing-file serialization. Rendering is nested. No experiment/evaluation or parent-final-wall measurement.",
+  "script_sha256": "016b67eafcd748b94304a253fe623c717eee1c835f9b47a189d09c2a000298af",
+  "output": "/data/home/aviyac/retailers_moreau_training_selected/N50_R3_train40_val10/short_rule_completion",
+  "artifact_sha256": {
+    "plot_data.json": "0925465604d094f3fad56642b3405bf5d499a4cd8d919cab90d04b4eab9742f0",
+    "runtime_comparison.json": "99730e4bad25cb7ea72601302a29f14d321eeca2369c52ac73cd423c4a9bc848",
+    "REPORT.md": "22e2bd9edbe74bb8bc1f348f78b4a265fa24e21d827a8bc67c9dbedbd655747e",
+    "matched_oos_completed.png": "2f32810480a1abbac87e3e2e2a8c521a98b0286c3a4fc979ca7ad882a5437bf7"
+  },
+  "wall_time_human": "39.810010 s / 0.663500 min / 0.011058 h"
+}

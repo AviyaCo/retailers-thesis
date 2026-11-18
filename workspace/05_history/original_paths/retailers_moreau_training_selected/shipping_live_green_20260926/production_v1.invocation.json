@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/run_campaign.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/production_v1",
+    "--preflight",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/preflight_v1/summary.json",
+    "--preflight-sha256",
+    "fe469c476f681b06d0a54ae84310d270ebf859a3f479f62711d6703bffa32795"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926",
+  "session": "shipping_live_green_20260926",
+  "mode": "production",
+  "started_at_utc": "2026-09-26T18:47:49.650640+00:00",
+  "timing_scope": "whole child including imports/teardown",
+  "returncode": 1,
+  "status": "failed",
+  "wall_time_s": 1764.6751120388508,
+  "ended_at_utc": "2026-09-26T19:17:14.325761+00:00"
+}

@@ -1,0 +1,12 @@
+moreau_cpu-0.4.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+moreau_cpu-0.4.0.dist-info/METADATA,sha256=Gb20SVrQ7QgfJWzkSlsSmdOE_NDZQlrNRYNQ0j7bIfc,2154
+moreau_cpu-0.4.0.dist-info/RECORD,,
+moreau_cpu-0.4.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moreau_cpu-0.4.0.dist-info/WHEEL,sha256=GW3H2bUMBAyjgsfr_2fDkeLC_N4Ix5hq3EkxQIo4rI4,107
+moreau_cpu-0.4.0.dist-info/licenses/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+moreau_cpu-0.4.0.dist-info/licenses/NOTICE,sha256=Au7fK0qbm4vs1P2cJTA_Tee3sB6iS6Yl8oD5FynEXLw,2014
+moreau_cpu/__init__.py,sha256=wgY08PAazuf4h4iR7T7Oa-RLmglv_d0UX3_9MR9VKHk,1410
+moreau_cpu/__pycache__/__init__.cpython-311.pyc,,
+moreau_cpu/_cpu/__init__.py,sha256=hYgqWwHRTAWIYys0CLnS0Shb-qIjYj6MgShJVBefOYI,59371
+moreau_cpu/_cpu/__pycache__/__init__.cpython-311.pyc,,
+moreau_cpu/_cpu_solver.abi3.so,sha256=nkc9S_NbHjAWaB8GFqFS0wlbzWAErPh-iGVFH7FLIsQ,2742456

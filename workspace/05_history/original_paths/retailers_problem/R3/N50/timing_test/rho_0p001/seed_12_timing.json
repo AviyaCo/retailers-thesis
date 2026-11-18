@@ -1,0 +1,32 @@
+{
+  "seed": 12,
+  "rho": 0.001,
+  "saa_time_s": 0.04,
+  "nominal_time_s": 424.24,
+  "ccg_iters": 2,
+  "ccg_time_s": 423.64,
+  "total_time_s": 849.14,
+  "converged": true,
+  "nom_loss": 21.065868596076374,
+  "final_mp_loss": 21.0520893904976,
+  "ccg_trajectory": [
+    {
+      "iter": 1,
+      "ap_mean": 21.06792222915994,
+      "mp_loss": 21.0520893904976,
+      "delta_pct": 0.009748627616278767,
+      "converged": false,
+      "ap_time_s": 0.81,
+      "mp_time_s": 421.85
+    },
+    {
+      "iter": 2,
+      "ap_mean": 21.054221275115907,
+      "mp_loss": 21.0520893904976,
+      "delta_pct": 0.010126712739829534,
+      "converged": true,
+      "ap_time_s": 0.98,
+      "mp_time_s": 0.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-09-25T10:26:01.919121+00:00",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/ap_gate.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/ap_gate_v1"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925",
+  "session": "shipping_epsilon_gate_20260925",
+  "workers": 1,
+  "threads": 1,
+  "timing_scope": "whole AP gate child including imports and teardown; not a CCG run",
+  "returncode": 1,
+  "status": "failed",
+  "wall_time_s": 6.497981604188681,
+  "ended_at_utc": "2026-09-25T10:26:08.417107+00:00"
+}

@@ -1,0 +1,104 @@
+{
+  "groups": [
+    {
+      "method": "ccg",
+      "Ntotal": 50,
+      "radius": 0.0,
+      "lr_net": null,
+      "timing_scope": "current invocation",
+      "seeds": [
+        0
+      ],
+      "wall_time_s": {
+        "count": 1,
+        "mean": 2.6565157659351826,
+        "median": 2.6565157659351826,
+        "min": 2.6565157659351826,
+        "max": 2.6565157659351826
+      },
+      "ap_total_time_s": {
+        "count": 1,
+        "mean": 1.682621542364359,
+        "median": 1.682621542364359,
+        "min": 1.682621542364359,
+        "max": 1.682621542364359
+      },
+      "ap_total_time_s_unavailable_count": 0,
+      "mp_total_time_s": {
+        "count": 1,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "mp_total_time_s_unavailable_count": 0,
+      "evaluation_time_s": {
+        "count": 1,
+        "mean": 0.014363139867782593,
+        "median": 0.014363139867782593,
+        "min": 0.014363139867782593,
+        "max": 0.014363139867782593
+      },
+      "evaluation_time_s_unavailable_count": 0
+    },
+    {
+      "method": "ccg",
+      "Ntotal": 50,
+      "radius": 0.2,
+      "lr_net": null,
+      "timing_scope": "current invocation",
+      "seeds": [
+        0
+      ],
+      "wall_time_s": {
+        "count": 1,
+        "mean": 27.568084679543972,
+        "median": 27.568084679543972,
+        "min": 27.568084679543972,
+        "max": 27.568084679543972
+      },
+      "ap_total_time_s": {
+        "count": 1,
+        "mean": 2.7753146700561047,
+        "median": 2.7753146700561047,
+        "min": 2.7753146700561047,
+        "max": 2.7753146700561047
+      },
+      "ap_total_time_s_unavailable_count": 0,
+      "mp_total_time_s": {
+        "count": 1,
+        "mean": 22.31960393860936,
+        "median": 22.31960393860936,
+        "min": 22.31960393860936,
+        "max": 22.31960393860936
+      },
+      "mp_total_time_s_unavailable_count": 0,
+      "evaluation_time_s": {
+        "count": 1,
+        "mean": 0.03673599287867546,
+        "median": 0.03673599287867546,
+        "min": 0.03673599287867546,
+        "max": 0.03673599287867546
+      },
+      "evaluation_time_s_unavailable_count": 0
+    }
+  ],
+  "incomplete": [],
+  "overall_sweep_wall_time_s": null,
+  "workers": 1,
+  "environment": null,
+  "timing_scope": "Concurrent per-model wall times are NOT summed as sweep elapsed; cached fits are separate",
+  "not_run": [
+    "test evaluation",
+    "refit",
+    "SRO-FA",
+    "CV"
+  ],
+  "runtime_table_coverage": {
+    "nominal_training": "all90 cached fits, persisted prior times",
+    "robust_neural_CCG": "current jobs, failed/nonconverged separate",
+    "SRO_FA": "not part of authorized campaign; unavailable",
+    "evaluation": "nominal and radius validation stages and arms",
+    "CV": "not run"
+  }
+}

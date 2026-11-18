@@ -1,0 +1,21 @@
+{
+  "session": "shipping_val_qpos_20261006",
+  "cwd": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "/data/home/aviyac/retailers_experiment/.consolidation_20261005/run_legacy.py",
+    "--cwd",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006",
+    "--write",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1",
+    "--",
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/run_validation.py",
+    "--output",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1"
+  ],
+  "log": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1.log"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-10-14T16:08:26.184868+00:00",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "/data/home/aviyac/retailers_experiment/.consolidation_20261005/run_legacy.py",
+    "--cwd",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011",
+    "--write",
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/runs",
+    "--",
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/green_fullN_cv_20261011_resume/resume.py",
+    "--output",
+    "runs/production_v1",
+    "--workers",
+    "56"
+  ],
+  "exact_command": "/data/home/aviyac/ap_env/bin/python -B /data/home/aviyac/retailers_experiment/.consolidation_20261005/run_legacy.py --cwd /data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011 --write /data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/runs -- /data/home/aviyac/ap_env/bin/python -B -u /data/home/aviyac/retailers_moreau_training_selected/green_fullN_cv_20261011_resume/resume.py --output runs/production_v1 --workers 56",
+  "cwd": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011",
+  "log": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011_resume/resume_v1.log",
+  "tmux": "/tmp/tmux-1754/default,797810,0",
+  "workers": 56,
+  "child_exit_code": 0,
+  "ended_at_utc": "2026-10-14T22:07:30.576417+00:00",
+  "wall_time_s": 21544.391381809022
+}

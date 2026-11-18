@@ -1,0 +1,12 @@
+{
+  "started_at_utc": "2026-09-24T15:22:42.931944+00:00",
+  "status": "completed",
+  "command": "/data/home/aviyac/ap_env/bin/python -B -u /data/home/aviyac/retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/run_nominal.py --output /data/home/aviyac/retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/production_v1 --preflight /data/home/aviyac/retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/preflight_v2/summary.json --preflight-sha256 92b320e91b441aabe0923744497b3f9acc46385868085471c900915d1431b21a",
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924",
+  "session": "shipping_nominal_R3_20260924",
+  "mode": "production",
+  "returncode": 0,
+  "ended_at_utc": "2026-09-24T17:02:59.783992+00:00",
+  "wall_time_s": 6016.852093163878,
+  "timing_scope": "whole child invocation including imports/teardown"
+}

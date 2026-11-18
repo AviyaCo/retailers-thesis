@@ -1,0 +1,733 @@
+{
+  "unit": "seconds",
+  "groups": [
+    {
+      "phase": "initialization",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.19595955051481723,
+        "median": 0.10320336557924747,
+        "min": 0.07177944853901863,
+        "max": 0.5469141602516174
+      }
+    },
+    {
+      "phase": "initialization",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.3390897773206234,
+        "median": 0.2976570185273886,
+        "min": 0.20937440916895866,
+        "max": 0.554316371679306
+      }
+    },
+    {
+      "phase": "initialization",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 1.0230774194002152,
+        "median": 0.9813347030431032,
+        "min": 0.9518117420375347,
+        "max": 1.2781086526811123
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.005,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 126.43592839501798,
+        "median": 126.86777689494193,
+        "min": 117.91680177673697,
+        "max": 131.2667379900813
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.01,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 128.46498199626802,
+        "median": 127.31690807454288,
+        "min": 126.15463702380657,
+        "max": 131.26038818061352
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.05,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 97.90439207665622,
+        "median": 85.88157049939036,
+        "min": 82.95393121242523,
+        "max": 130.25998264551163
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.005,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 167.53457362875344,
+        "median": 167.72169952653348,
+        "min": 160.03433745726943,
+        "max": 171.02453548833728
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.01,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 169.68266282752157,
+        "median": 170.59145102649927,
+        "min": 166.61947728320956,
+        "max": 171.33243210986257
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.05,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 113.89948864616454,
+        "median": 100.46546740457416,
+        "min": 94.89101085439324,
+        "max": 170.91319338977337
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.005,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 216.14280211664737,
+        "median": 216.4530084207654,
+        "min": 213.94879498705268,
+        "max": 217.02358993515372
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.01,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 216.9246332306415,
+        "median": 216.96034688688815,
+        "min": 215.87289066240191,
+        "max": 217.5283424332738
+      }
+    },
+    {
+      "phase": "nominal",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.05,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 145.78830128870905,
+        "median": 130.46486215665936,
+        "min": 120.99782142415643,
+        "max": 217.10451186820865
+      }
+    },
+    {
+      "phase": "lr_validation",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.046682640165090564,
+        "median": 0.04027795232832432,
+        "min": 0.033098600804805756,
+        "max": 0.08422360941767693
+      }
+    },
+    {
+      "phase": "lr_validation",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.04966947212815285,
+        "median": 0.04606019705533981,
+        "min": 0.04065786674618721,
+        "max": 0.06269099935889244
+      }
+    },
+    {
+      "phase": "lr_validation",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.06463711075484753,
+        "median": 0.060247285291552544,
+        "min": 0.05251597240567207,
+        "max": 0.08407483994960785
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.0,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 4.241858250275254,
+        "median": 5.020327804610133,
+        "min": 0.8732032813131809,
+        "max": 5.1111179292202
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.001,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 3.469116933271289,
+        "median": 2.4289516862481833,
+        "min": 2.2713916935026646,
+        "max": 5.215141590684652
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.003,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 1.8506124503910542,
+        "median": 1.6444527320563793,
+        "min": 1.5362231209874153,
+        "max": 2.4583615697920322
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.01,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 1.6978442005813121,
+        "median": 1.6901238355785608,
+        "min": 1.608822450041771,
+        "max": 1.80192019790411
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.03,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 35.495069763064386,
+        "median": 1.8899887464940548,
+        "min": 1.7499654442071915,
+        "max": 229.09413335844874
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.2,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 924.4195118349046,
+        "median": 945.7674810197204,
+        "min": 426.8012941852212,
+        "max": 1325.0764922574162
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.4,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 1901.6071620423347,
+        "median": 2010.812299709767,
+        "min": 837.8168027177453,
+        "max": 3370.8288661018014
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 0.7,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 2652.5435388755054,
+        "median": 2201.672874648124,
+        "min": 1342.636929538101,
+        "max": 5096.247623641044
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": 1.5,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 3571.2893102012576,
+        "median": 3839.8999816495925,
+        "min": 1084.061490610242,
+        "max": 5106.143631894141
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.0,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 9.1919801492244,
+        "median": 9.275666672736406,
+        "min": 8.437722686678171,
+        "max": 9.653378207236528
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.001,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 7.828379218652844,
+        "median": 6.8382638823240995,
+        "min": 6.64897520467639,
+        "max": 9.56763345003128
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.003,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 6.264762537926435,
+        "median": 6.134703107178211,
+        "min": 5.856778588145971,
+        "max": 6.768398832529783
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.01,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 5.959427064657211,
+        "median": 5.948626518249512,
+        "min": 5.632540516555309,
+        "max": 6.373955175280571
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.03,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 6.385305543243885,
+        "median": 6.353979084640741,
+        "min": 6.056004725396633,
+        "max": 6.7997172474861145
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.2,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 403.81209055036305,
+        "median": 416.9384187422693,
+        "min": 42.838749304413795,
+        "max": 639.683823607862
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.4,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 895.8398208282888,
+        "median": 950.6735695917159,
+        "min": 687.0851285867393,
+        "max": 1314.1612004041672
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 0.7,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 1694.1363673176616,
+        "median": 1570.3480755090714,
+        "min": 966.664908260107,
+        "max": 2704.54287584126
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": 1.5,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 4841.734107590467,
+        "median": 4483.177023947239,
+        "min": 2449.988376159221,
+        "max": 6557.405675709248
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.0,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 25.79151473492384,
+        "median": 25.889195581898093,
+        "min": 24.690652281045914,
+        "max": 26.297460209578276
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.001,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 24.567842400446533,
+        "median": 23.75973005220294,
+        "min": 23.51457852125168,
+        "max": 26.731726299971342
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.003,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 23.57370267659426,
+        "median": 23.497423009946942,
+        "min": 22.978493493050337,
+        "max": 24.26874713599682
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.01,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 23.73650859184563,
+        "median": 23.707463402301073,
+        "min": 22.83959423750639,
+        "max": 24.422323364764452
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.03,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 25.410536032170057,
+        "median": 25.087551532313228,
+        "min": 23.960854537785053,
+        "max": 26.756575781852007
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.2,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 584.3223675757647,
+        "median": 454.99589782208204,
+        "min": 417.59425708279014,
+        "max": 943.5108751617372
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.4,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 1361.164144446701,
+        "median": 1505.529169563204,
+        "min": 946.988668769598,
+        "max": 1711.746317114681
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 0.7,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 2774.969447043538,
+        "median": 2504.3207169566303,
+        "min": 1626.3474752157927,
+        "max": 4868.8504583872855
+      }
+    },
+    {
+      "phase": "ccg",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": 1.5,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 7990.3629897333685,
+        "median": 6882.736477850005,
+        "min": 3895.838391393423,
+        "max": 18468.406397026032
+      }
+    },
+    {
+      "phase": "radius_validation",
+      "Ntotal": 50,
+      "Ntrain": 40,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.342056418210268,
+        "median": 0.3632292505353689,
+        "min": 0.24480190128087997,
+        "max": 0.41736117750406265
+      }
+    },
+    {
+      "phase": "radius_validation",
+      "Ntotal": 200,
+      "Ntrain": 160,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.31001885123550893,
+        "median": 0.3142234552651644,
+        "min": 0.27023816108703613,
+        "max": 0.35634541139006615
+      }
+    },
+    {
+      "phase": "radius_validation",
+      "Ntotal": 800,
+      "Ntrain": 640,
+      "status": "completed",
+      "group": null,
+      "jobs": 10,
+      "unmeasured": 0,
+      "wall_time_s": {
+        "count": 10,
+        "mean": 0.3949411202222109,
+        "median": 0.3932195659726858,
+        "min": 0.3394671678543091,
+        "max": 0.43670654296875
+      }
+    }
+  ],
+  "overall_sweep_wall_s": 19698.255386341363,
+  "scope": "Per-model wall times, not a sum interpreted as parallel elapsed",
+  "not_run": {
+    "SRO_FA": "not run",
+    "CV": "single paired split, not CV",
+    "test": "not accessed"
+  },
+  "raw_nominal_AP_MP_times": "Nested nominal training records and each CCG summary retain all phases/iterations"
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_advisory_continue_20260928/run_continue.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_advisory_continue_20260928/continuation_v1"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_advisory_continue_20260928",
+  "session": "shipping_advisory_continue_20260928",
+  "log": "/data/home/aviyac/retailers_moreau_training_selected/shipping_advisory_continue_20260928/continuation_v1.log",
+  "started_at_utc": "2026-09-28T10:17:53.544648+00:00",
+  "returncode": 0,
+  "status": "completed",
+  "wall_time_s": 216.91385722905397,
+  "ended_at_utc": "2026-09-28T10:21:30.458510+00:00"
+}

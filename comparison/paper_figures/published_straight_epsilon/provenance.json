@@ -1,0 +1,6 @@
+{
+  "derived_from": "published",
+  "change": "x-axis label U+03B5 (curly epsilon) -> U+03F5 (straight lunate epsilon); everything else identical (same loaders, same build functions)",
+  "script": "render_epsilon.py",
+  "new_training_or_evaluation": false
+}

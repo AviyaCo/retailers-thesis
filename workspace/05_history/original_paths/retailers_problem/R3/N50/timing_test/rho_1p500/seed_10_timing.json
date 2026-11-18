@@ -1,0 +1,86 @@
+{
+  "seed": 10,
+  "rho": 1.5,
+  "saa_time_s": 0.04,
+  "nominal_time_s": 410.29,
+  "ccg_iters": 8,
+  "ccg_time_s": 10783.55,
+  "total_time_s": 11195.36,
+  "converged": true,
+  "nom_loss": 17.095757653731958,
+  "final_mp_loss": 21.636554292637882,
+  "ccg_trajectory": [
+    {
+      "iter": 1,
+      "ap_mean": 24.86185056073681,
+      "mp_loss": 19.33125227355133,
+      "delta_pct": 45.42701800238454,
+      "converged": false,
+      "ap_time_s": 3.02,
+      "mp_time_s": 1026.99
+    },
+    {
+      "iter": 2,
+      "ap_mean": 24.67668111538882,
+      "mp_loss": 20.39887400711643,
+      "delta_pct": 27.651746333842077,
+      "converged": false,
+      "ap_time_s": 2.59,
+      "mp_time_s": 2051.97
+    },
+    {
+      "iter": 3,
+      "ap_mean": 23.3624549160192,
+      "mp_loss": 20.998021082598505,
+      "delta_pct": 14.528159288933711,
+      "converged": false,
+      "ap_time_s": 2.41,
+      "mp_time_s": 1970.51
+    },
+    {
+      "iter": 4,
+      "ap_mean": 22.180264844811223,
+      "mp_loss": 21.25696571606445,
+      "delta_pct": 5.63026276410622,
+      "converged": false,
+      "ap_time_s": 1.89,
+      "mp_time_s": 1214.36
+    },
+    {
+      "iter": 5,
+      "ap_mean": 21.91855317315433,
+      "mp_loss": 21.40858585008761,
+      "delta_pct": 3.112332521616199,
+      "converged": false,
+      "ap_time_s": 2.01,
+      "mp_time_s": 1623.42
+    },
+    {
+      "iter": 6,
+      "ap_mean": 21.761800835912222,
+      "mp_loss": 21.570705614221534,
+      "delta_pct": 1.649875373824214,
+      "converged": false,
+      "ap_time_s": 1.89,
+      "mp_time_s": 1896.43
+    },
+    {
+      "iter": 7,
+      "ap_mean": 21.894451461380182,
+      "mp_loss": 21.636554292637882,
+      "delta_pct": 1.5008588636303242,
+      "converged": false,
+      "ap_time_s": 1.57,
+      "mp_time_s": 982.73
+    },
+    {
+      "iter": 8,
+      "ap_mean": 21.715047863636144,
+      "mp_loss": 21.636554292637882,
+      "delta_pct": 0.3627822153963322,
+      "converged": true,
+      "ap_time_s": 1.76,
+      "mp_time_s": 0.0
+    }
+  ]
+}

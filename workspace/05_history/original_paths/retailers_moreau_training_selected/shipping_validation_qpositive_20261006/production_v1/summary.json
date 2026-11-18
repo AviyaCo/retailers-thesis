@@ -1,0 +1,517 @@
+{
+  "experiment": "shipping_validation_qpositive_20261006",
+  "status": "completed",
+  "start_utc": "2026-10-06T07:17:01.175258+00:00",
+  "phases": {
+    "regression_tests": {
+      "start_utc": "2026-10-06T07:17:01.180367+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:03.766725+00:00",
+      "wall_time_s": 2.586410259944387
+    },
+    "input_freeze_and_split_verification": {
+      "start_utc": "2026-10-06T07:17:03.766812+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:19.575550+00:00",
+      "wall_time_s": 15.808765984023921
+    },
+    "training_only_preflight": {
+      "start_utc": "2026-10-06T07:17:19.576413+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:20.242425+00:00",
+      "wall_time_s": 0.6660297170747072
+    },
+    "parallel_validation": {
+      "start_utc": "2026-10-06T07:17:20.242475+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:29.329461+00:00",
+      "wall_time_s": 9.087025468004867
+    },
+    "raw_validation_verification_and_selection": {
+      "start_utc": "2026-10-06T07:17:29.329541+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:30.845378+00:00",
+      "wall_time_s": 1.515873241936788
+    },
+    "cached_test_lookup_and_raw_verification": {
+      "start_utc": "2026-10-06T07:17:30.845487+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:41.425624+00:00",
+      "wall_time_s": 10.580171187059022
+    },
+    "final_integrity": {
+      "start_utc": "2026-10-06T07:17:41.425685+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:47.164224+00:00",
+      "wall_time_s": 5.738567550084554
+    },
+    "reporting": {
+      "start_utc": "2026-10-06T07:17:47.164274+00:00",
+      "status": "completed",
+      "end_utc": "2026-10-06T07:17:47.182203+00:00",
+      "wall_time_s": 0.017948961001820862
+    }
+  },
+  "results": [
+    {
+      "id": "green_N50_s0",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s0/result.json",
+      "result_sha256": "93a4b520fbc46a60867bc9d7b6ad5ee79f2b9a29f9f9f5128ddceb9088731743",
+      "wall_time_s": 0.31007300305645913
+    },
+    {
+      "id": "green_N50_s1",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s1/result.json",
+      "result_sha256": "ac63f24bb3af738c4d7ac7be278dc6db1bc8772dd99c14fc2507262b22d32721",
+      "wall_time_s": 0.2612858850043267
+    },
+    {
+      "id": "green_N50_s2",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s2/result.json",
+      "result_sha256": "de1da73e3e5ef43f03d5350cd051dcf9cbfeb065c7915e0dfb4e76216387cfae",
+      "wall_time_s": 0.27796953404322267
+    },
+    {
+      "id": "green_N50_s3",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s3/result.json",
+      "result_sha256": "31e7fe74864b5bf147a1cd2814fbd69d85a43d36b02897d8658276e0757f6183",
+      "wall_time_s": 0.28567189804743975
+    },
+    {
+      "id": "green_N50_s5",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s5/result.json",
+      "result_sha256": "d43e6f20eba587af465ea7cec98b769e5815f56d1972bf94a2e9dfcd21af8adc",
+      "wall_time_s": 0.2671158970333636
+    },
+    {
+      "id": "green_N50_s4",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s4/result.json",
+      "result_sha256": "613f6cbadc7a39e0203e263a82e29ba23135b6458236390b62b5cdbcaa5f524f",
+      "wall_time_s": 0.2912219790741801
+    },
+    {
+      "id": "green_N50_s6",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s6/result.json",
+      "result_sha256": "5074957d46b60f11b7935da95b6a861454237e9eaf75c378751d79bcb9a3e787",
+      "wall_time_s": 0.22876773902680725
+    },
+    {
+      "id": "green_N50_s7",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s7/result.json",
+      "result_sha256": "a2d59d60a28d8f78499c97bbe71cbfffec87a731f97d2034fc2b2adb88e0bc73",
+      "wall_time_s": 0.24328142299782485
+    },
+    {
+      "id": "green_N50_s8",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s8/result.json",
+      "result_sha256": "0c1ebd229ed290af62dedd8915c838e9a61fd4e9f3edbfec6e463abfb08bff0b",
+      "wall_time_s": 0.1596407829783857
+    },
+    {
+      "id": "green_N50_s9",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N50_s9/result.json",
+      "result_sha256": "2456d9a61d07abb02f7661319c63686873a4b7819b36aa75d00b6bb08347236c",
+      "wall_time_s": 0.1504141129553318
+    },
+    {
+      "id": "green_N200_s1",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s1/result.json",
+      "result_sha256": "c1801789817fe028e0761d7b7e46a98b33ad35179afbc6fc9689c18f3e902f31",
+      "wall_time_s": 0.3356088059954345
+    },
+    {
+      "id": "green_N200_s0",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s0/result.json",
+      "result_sha256": "fe11c5cb0d4e26a2af020eaab600ea9fddd26720fa14e159bc074e61dfe34817",
+      "wall_time_s": 0.3485869331052527
+    },
+    {
+      "id": "green_N200_s2",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s2/result.json",
+      "result_sha256": "f96f6cfe0c8dfd6036491fbf06014858dca0f1a6021dee57d9360b5ff124608e",
+      "wall_time_s": 0.33646053599659353
+    },
+    {
+      "id": "green_N200_s3",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s3/result.json",
+      "result_sha256": "9e8622376d7d727412e96e4d99b8a98e30b15c59d30ea5bc5b0dd033ed74bc06",
+      "wall_time_s": 0.3448801839258522
+    },
+    {
+      "id": "green_N200_s4",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s4/result.json",
+      "result_sha256": "9fbc9007b41164a811d6dca991fa7036319a46167dc995dd0954b1fde8becc9a",
+      "wall_time_s": 0.33633222291246057
+    },
+    {
+      "id": "green_N200_s5",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s5/result.json",
+      "result_sha256": "1f8652f617e75ebd4c1e829095b33274e63f14a56998b61ea5c5bc761e64345f",
+      "wall_time_s": 0.3375836709747091
+    },
+    {
+      "id": "green_N200_s6",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s6/result.json",
+      "result_sha256": "e32e8c6f5ddc4d30a800be8089b7f485a7b0443f6b262370af84afe300c186a4",
+      "wall_time_s": 0.33748963708058
+    },
+    {
+      "id": "green_N200_s7",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s7/result.json",
+      "result_sha256": "8af908155e1b1c4073207ac8359f9f15f85712f63a04de37848c810cb82aa053",
+      "wall_time_s": 0.34276201692409813
+    },
+    {
+      "id": "green_N200_s9",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s9/result.json",
+      "result_sha256": "0251cab7cd287946faa603a764a1653f9f663c28554512ab1da26cd4ec8b9f29",
+      "wall_time_s": 0.35188781295437366
+    },
+    {
+      "id": "green_N200_s8",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N200_s8/result.json",
+      "result_sha256": "d48dc1fa2c39cb322ccb9135cf4748f5c7db51a72ad64e2a11a69a31c30d94bf",
+      "wall_time_s": 0.35275823704432696
+    },
+    {
+      "id": "green_N800_s4",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s4/result.json",
+      "result_sha256": "bcff2bb51c4ec65cfab4690834db7bc38bc030045d792b8764562ffb6d23d4f9",
+      "wall_time_s": 0.8380092940060422
+    },
+    {
+      "id": "green_N800_s0",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s0/result.json",
+      "result_sha256": "901e158bdfd40eb3a87d59ebbc3a6cbeb8739db4c318d833e09cc162e9cd0aa6",
+      "wall_time_s": 0.8925430090166628
+    },
+    {
+      "id": "green_N800_s1",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s1/result.json",
+      "result_sha256": "e666a598b82e892a9767da8974628f4c6e01f70a58e35becdebaa71e942efe81",
+      "wall_time_s": 0.8807481440017
+    },
+    {
+      "id": "green_N800_s3",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s3/result.json",
+      "result_sha256": "44f865e45b99ce2d581b6c398b30d8871c43d7336db73cb1f9e2b8734253e08f",
+      "wall_time_s": 0.8807581079890952
+    },
+    {
+      "id": "green_N800_s2",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s2/result.json",
+      "result_sha256": "881cfb79a3224f91ccb1d36f12acbfe0d85cf520f531f4e2f410d2eb015ee5a6",
+      "wall_time_s": 0.947734685963951
+    },
+    {
+      "id": "green_N800_s5",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s5/result.json",
+      "result_sha256": "d77eaae486bd14283f605450fed4d46419563fae77b6022ae28334f1e279b02c",
+      "wall_time_s": 0.9017001989996061
+    },
+    {
+      "id": "legacy_N50_s0",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s0/result.json",
+      "result_sha256": "58565cd8bcba75ef093096ec91c510769d6dbcb196691bafef1aa3d3c7994578",
+      "wall_time_s": 0.2799414120381698
+    },
+    {
+      "id": "legacy_N50_s1",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s1/result.json",
+      "result_sha256": "9d8f8e8c7d4a2fa4ab67c6cc45bf12c6d38ba6c474b4757bb5d2fe7d29f3a02c",
+      "wall_time_s": 0.26970393501687795
+    },
+    {
+      "id": "green_N800_s7",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s7/result.json",
+      "result_sha256": "fbb3cfe7a6619dee15e620546769280e0fa921549498ba9e8e598c3c324008b2",
+      "wall_time_s": 0.88057253905572
+    },
+    {
+      "id": "green_N800_s6",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s6/result.json",
+      "result_sha256": "ade130496ecea81cf11636c17c6e5e6b05f3f3b9de2dbae18c4caf96ae2e93f7",
+      "wall_time_s": 0.8930591669632122
+    },
+    {
+      "id": "legacy_N50_s2",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s2/result.json",
+      "result_sha256": "7e55c108f54670746615298deda00d2bb2cb03c1d5df29bc7e922808e2f24434",
+      "wall_time_s": 0.29331989597994834
+    },
+    {
+      "id": "legacy_N50_s3",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s3/result.json",
+      "result_sha256": "7ebe1ec0c0dd8a3ef42ef6e2b267bf03b2c3bb2280da4853dca002dec0a10183",
+      "wall_time_s": 0.2925517079420388
+    },
+    {
+      "id": "legacy_N50_s4",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s4/result.json",
+      "result_sha256": "893b85b6afbd72a7aebdb9725de546c4f952cc89dd71279e963fdeeceedca819",
+      "wall_time_s": 0.267236344050616
+    },
+    {
+      "id": "legacy_N50_s5",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s5/result.json",
+      "result_sha256": "b74ea5a15cbcc9ad9641ce538e49f85af21582cc07083e97f53879dcb1d5d1b0",
+      "wall_time_s": 0.2524598370073363
+    },
+    {
+      "id": "legacy_N50_s6",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s6/result.json",
+      "result_sha256": "eaed98bb93126fa2a32aaffd6abf453456da85ec789a3ac2a83d8d07e539c307",
+      "wall_time_s": 0.2634181280154735
+    },
+    {
+      "id": "legacy_N50_s7",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s7/result.json",
+      "result_sha256": "0cdae03cc4a895a647f8731fde3eef697582008ad29d2ddc039c2d858378c86a",
+      "wall_time_s": 0.28203960601240396
+    },
+    {
+      "id": "legacy_N50_s8",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s8/result.json",
+      "result_sha256": "a85c06a91974bc76308812b4dec2b801b0d5394a40f683291ebccdb5cb393426",
+      "wall_time_s": 0.2625225130468607
+    },
+    {
+      "id": "legacy_N50_s9",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N50_s9/result.json",
+      "result_sha256": "ca0af23128ee150f05fce6243a4f9a601eb6d12be0e9364dd9753f80bda93d9f",
+      "wall_time_s": 0.2523834790335968
+    },
+    {
+      "id": "green_N800_s8",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s8/result.json",
+      "result_sha256": "7d2b69faaae29dc4966584ac05d0eeb979d3876599a9e31b66cf9b19bda313a7",
+      "wall_time_s": 0.8692847129423171
+    },
+    {
+      "id": "green_N800_s9",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/green_N800_s9/result.json",
+      "result_sha256": "5b7b60dd5ef40f0d7ee110b63257d408a40e1bd824fbf3e0b65195c87f33483a",
+      "wall_time_s": 0.8997001409297809
+    },
+    {
+      "id": "legacy_N200_s1",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s1/result.json",
+      "result_sha256": "70cb53149854cc9940836f0d3c3526449dbec09edb72c4f3d1359e2b65359e92",
+      "wall_time_s": 0.5657613920047879
+    },
+    {
+      "id": "legacy_N200_s0",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s0/result.json",
+      "result_sha256": "e12244f189abe1b2969118293c288293dc87c8cb255831232c83ba85245f6e84",
+      "wall_time_s": 0.5756428829627112
+    },
+    {
+      "id": "legacy_N200_s2",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s2/result.json",
+      "result_sha256": "28cd8616aba1ae656835282e633d5eb0b64d8c2b357a5e8d1897d4a42d2443d9",
+      "wall_time_s": 0.5759193759877235
+    },
+    {
+      "id": "legacy_N200_s3",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s3/result.json",
+      "result_sha256": "51279ce1ba30439689d56e341c735d303d07b622ff1b8684a99070994d61a1e9",
+      "wall_time_s": 0.5861934290733188
+    },
+    {
+      "id": "legacy_N200_s4",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s4/result.json",
+      "result_sha256": "18ee981c62a7f1466803ff3447b6534b54dfa8f59ca8e257f21ce9aef72ced8f",
+      "wall_time_s": 0.598099852912128
+    },
+    {
+      "id": "legacy_N200_s5",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s5/result.json",
+      "result_sha256": "f05ad12989d833318958dfb8503375720c61c867d42d4dab41d6b5809ee86b2b",
+      "wall_time_s": 0.5752919859951362
+    },
+    {
+      "id": "legacy_N200_s6",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s6/result.json",
+      "result_sha256": "cc5ce8cc315461bb4b0874c562e95a1079520cfc48c002375a93418206847b7c",
+      "wall_time_s": 0.5650973080191761
+    },
+    {
+      "id": "legacy_N200_s7",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s7/result.json",
+      "result_sha256": "ced66548db41843a694e492bb26dba7ade96e0edf410ae211d448cfa27d6bac7",
+      "wall_time_s": 0.5706597939133644
+    },
+    {
+      "id": "legacy_N200_s8",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s8/result.json",
+      "result_sha256": "8f87a715284bb8f0351a2b6097fbdf9f6486897dced369422f5f149d1164964d",
+      "wall_time_s": 0.5703725919593126
+    },
+    {
+      "id": "legacy_N200_s9",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N200_s9/result.json",
+      "result_sha256": "ad7dcce43e01f6e8690eb499659fd50a9948644bc12dc63f28e77c135a7482f9",
+      "wall_time_s": 0.5629309279611334
+    },
+    {
+      "id": "legacy_N800_s0",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s0/result.json",
+      "result_sha256": "fac00f7956f32b3596052d0ca8ae691d91ce77c7f5f36bb8db90937efcc7a5f8",
+      "wall_time_s": 1.7839263998903334
+    },
+    {
+      "id": "legacy_N800_s3",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s3/result.json",
+      "result_sha256": "46a09ee48ad494307129f4b97785336ecd6da2ed9ef3bb389b4594c70f47c92a",
+      "wall_time_s": 1.7508837969508022
+    },
+    {
+      "id": "legacy_N800_s1",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s1/result.json",
+      "result_sha256": "c5dbd26db082dfbaeddb372c44b5c21a08173294b55c491b56e609344cfcad6b",
+      "wall_time_s": 1.8075393460458145
+    },
+    {
+      "id": "legacy_N800_s2",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s2/result.json",
+      "result_sha256": "f130c000b71b002bb7c822a5957242de7a52fce619f9de85a9dcdec40bd861a5",
+      "wall_time_s": 1.7927898520138115
+    },
+    {
+      "id": "legacy_N800_s4",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s4/result.json",
+      "result_sha256": "bd478a9fbda8dd20bf4b5efaaf29325348c3c7acae35fb555723215dba0bc22d",
+      "wall_time_s": 1.776789907948114
+    },
+    {
+      "id": "legacy_N800_s5",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s5/result.json",
+      "result_sha256": "048a615e160264f15483a97d18a543266be28f6d2500bb66b1d0dfe85a00c10d",
+      "wall_time_s": 1.9590886569349095
+    },
+    {
+      "id": "legacy_N800_s7",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s7/result.json",
+      "result_sha256": "b7f1de0c2dcd94d1f8518bb6af9764958e2e0e5d9c3c8aaacddb2e0eb6914cc6",
+      "wall_time_s": 1.7463700660737231
+    },
+    {
+      "id": "legacy_N800_s6",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s6/result.json",
+      "result_sha256": "9cd91bf4ad8c88aa22b193bc0de58bf474fc23ec8592ccaef9f2787f4bd788bb",
+      "wall_time_s": 1.8117687070043758
+    },
+    {
+      "id": "legacy_N800_s9",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s9/result.json",
+      "result_sha256": "e4a1149b2602747c28dc85ea1caf62907be9a1e7dad073461e11c4f764b9981c",
+      "wall_time_s": 1.7487067769980058
+    },
+    {
+      "id": "legacy_N800_s8",
+      "status": "completed",
+      "result_path": "/data/home/aviyac/retailers_moreau_training_selected/shipping_validation_qpositive_20261006/production_v1/validation/legacy_N800_s8/result.json",
+      "result_sha256": "dfe01b8d39261b2965502ebd52cb45464ed7125861c02112f0a6f227a42357d2",
+      "wall_time_s": 1.8078780360519886
+    }
+  ],
+  "workers": 8,
+  "threads": 1,
+  "training_run": false,
+  "radius_selection_run": true,
+  "fee_rule": {
+    "amount": 0.1,
+    "comparison": ">",
+    "threshold": 0.0,
+    "quantity": "raw q2",
+    "projection": "common strict Gurobi",
+    "native_moreau": false
+  },
+  "environment": {
+    "host": "gold-srv2.iem.technion.ac.il",
+    "platform": "Linux-4.18.0-553.97.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "affinity_cpus": 72,
+    "versions": {
+      "python": "3.11.13 (main, Jan 28 2026, 00:22:30) [GCC 8.5.0 20210514 (Red Hat 8.5.0-28)]",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1",
+      "torch": "2.10.0+cu128",
+      "gurobi": [
+        13,
+        0,
+        1
+      ]
+    }
+  },
+  "candidate_count": 720,
+  "selection_count": 60,
+  "validation_projections": 58350,
+  "artifacts": {
+    "RESULTS.md": "e37a8177e8fefeb5d28717ac924aaad83032919412aeb884c861d4a06d389e33",
+    "score_summary.json": "59931cf60373d314f8e10eda0a81ff16032e0dfee20337ad6c04f0da55d1cac6",
+    "runtime_report.json": "8782e5cd75e5ed1fba7bfed23692f9c77abea6c1d374c58b95226349c4cc63d0",
+    "selected_test_results.json": "187838175d510e8b9ff76fdb0c06278a4d29db8de10f371dfc49e2c7be9bf17d",
+    "selections.json": "181ca2d475fe51f22417ee48ed09ae442d8faa02c5742588cbf5c51f89b7e2dd"
+  },
+  "end_utc": "2026-10-06T07:17:47.184524+00:00",
+  "wall_time_s": 46.00929955707397
+}

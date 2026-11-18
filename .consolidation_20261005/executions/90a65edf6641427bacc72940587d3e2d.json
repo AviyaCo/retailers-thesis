@@ -1,0 +1,47 @@
+{
+  "kind": "filesystem-compatibility invocation; NOT measured model runtime",
+  "started_at": "2026-10-11T08:32:55.364757+00:00",
+  "status": "completed",
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/green_fullN_cv_20261011",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "test_backend.py",
+    "--kind",
+    "shipping_R3",
+    "--scratch",
+    "backend_checks_v2/shipping_R3"
+  ],
+  "explicit_writable_directories": [
+    "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/backend_checks_v2/shipping_R3"
+  ],
+  "physical_roots": {
+    "hydro_rcr": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr",
+    "hydro_rcr_forgetting_factor_a": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_forgetting_factor_a",
+    "hydro_rcr_stable_mixing_b": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_stable_mixing_b",
+    "hydro_rcr_rescaled": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_rescaled",
+    "hydro_rcr_moreau_from_scratch": "hydro_experiment/workspace/05_history/moreau_nominal/hydro_rcr_moreau_from_scratch",
+    "hydro_ap10000_extension": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap10000_extension",
+    "hydro_ap_bounded_trial": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_trial",
+    "hydro_ap_bounded_recheck": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_recheck",
+    "hydro_ap_bounded_parallel_continue": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_parallel_continue",
+    "hydro_moreau_ccg_one_cycle": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_one_cycle",
+    "hydro_moreau_ccg_second_cycle": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_second_cycle",
+    "hydro_moreau_ccg_until_convergence": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_until_convergence",
+    "hydro_moreau_ccg_gap_tolerance": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_gap_tolerance",
+    "hydro_moreau_validation_radius_half": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_validation_radius_half",
+    "hydro_moreau_small_radius_grid": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_small_radius_grid",
+    "hydro_center34_investigation": "hydro_experiment/workspace/05_history/numerical_diagnostics/hydro_center34_investigation",
+    "hydro_sddp_empirical_reference": "hydro_experiment/workspace/05_history/sddp_reference/hydro_sddp_empirical_reference",
+    "retailers_problem": "retailers_experiment/workspace/05_history/original_paths/retailers_problem",
+    "retailers_with_shipping": "retailers_experiment/workspace/05_history/original_paths/retailers_with_shipping",
+    "retailers_moreau_training_selected": "retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected",
+    "retailers_moreau": "retailers_experiment/workspace/05_history/original_paths/retailers_moreau",
+    "retailers_moreau_N50_R3_net16_v2": "retailers_experiment/workspace/05_history/original_paths/retailers_moreau_N50_R3_net16_v2",
+    "retailers_scs_vs_moreau": "retailers_experiment/workspace/05_history/original_paths/retailers_scs_vs_moreau"
+  },
+  "historical_records_modified": false,
+  "returncode": 0,
+  "ended_at": "2026-10-11T08:33:04.191432+00:00",
+  "wall_seconds": 8.826384068932384
+}

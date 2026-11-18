@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-09-25T11:12:57.081663+00:00",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_replay_tolerance_20260925/ap_gate.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_replay_tolerance_20260925/ap_gate_v1"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_replay_tolerance_20260925",
+  "session": "shipping_replay_tolerance_20260925",
+  "workers": 1,
+  "threads": 1,
+  "timing_scope": "whole AP gate child including imports and teardown; not a CCG run",
+  "returncode": 0,
+  "status": "completed",
+  "wall_time_s": 5.8727628737688065,
+  "ended_at_utc": "2026-09-25T11:13:02.954425+00:00"
+}

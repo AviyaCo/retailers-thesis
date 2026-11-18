@@ -1,0 +1,13 @@
+{
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_ap_replay_20260928/replay.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_ap_replay_20260928/replay_v1"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_ap_replay_20260928",
+  "session": "shipping_ap_replay_20260928",
+  "log": "/data/home/aviyac/retailers_moreau_training_selected/shipping_ap_replay_20260928/replay_v1.log"
+}

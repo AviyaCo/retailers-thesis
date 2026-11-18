@@ -1,0 +1,15 @@
+% Standalone caption text; no manuscript changes or compilation dependencies.
+Mean performance over ten training seeds for the no-shipping retailer problem
+($R=3$, $f=0$), with total sample budget $N=50$ split into40 training and10
+validation observations. Dark green denotes the out-of-sample cost of the
+initial-eligible mean-gap Neural CCG policy, with minimum mean-AP return;
+light green denotes its in-sample augmented finite-pool objective. The latter
+is the mean of per-center worst costs over the returned checkpoint's own
+training pools, reevaluated by the strict Gurobi projection evaluator; it is
+not the full uncertainty-set AP objective. SRO-FA (red), SAA-kNN (yellow),
+and the two clairvoyant references retain their historical values and data
+budgets. Shaded regions are20th--80th percentiles across seed-level OOS costs,
+not confidence intervals. The OOS draw has10,000 observations (seed9999) and
+has previously been inspected; comparisons are descriptive. The2k SAA-LP
+and separate1M conditional reference use different evaluation samples.
+The horizontal scale is linear up to $\rho=0.001$ and logarithmic above it.

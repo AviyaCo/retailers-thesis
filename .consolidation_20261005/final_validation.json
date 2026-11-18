@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checked_date": "2026-10-05",
+  "scope": "post-cleanup inventory, links, source compatibility and scratch tests; not numerical reproduction",
+  "canonical_roots_inventory_unchanged": 23,
+  "old_top_level_roots_absent": 23,
+  "archive_duplicate_aliases_valid": 365,
+  "workspace_navigation_links_valid": {
+    "hydro": 48,
+    "retailers": 64
+  },
+  "guide_links_valid": 29,
+  "unique_entries_retained": 16,
+  "temporary_holding_removed": true,
+  "duplicate_files_removed": 1417160,
+  "duplicate_logical_bytes_removed": 261101931226,
+  "cleanup_wall_seconds": 2530.928474681976,
+  "post_cleanup_inventory_verification_wall_seconds": 20.810375182016287,
+  "source_compatibility_verification_wall_seconds": 5.28014536795672,
+  "hydro_frozen_source_hashes_verified": 210,
+  "shipping_original_bound_file_checks_passed": 14,
+  "scratch_tests_passed": 9,
+  "scratch_tests_wall_seconds": 0.110,
+  "full_content_rehash_of_retained_trees": false,
+  "numerical_experiments_run": false
+}

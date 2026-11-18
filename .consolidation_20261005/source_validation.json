@@ -1,0 +1,19 @@
+{
+  "started_at": "2026-10-05T15:02:39.674517+00:00",
+  "status": "passed",
+  "kind": "source-only compatibility verification",
+  "workers": 1,
+  "checks": {
+    "virtual_roots": 23,
+    "hydro_frozen_source_hashes": 210,
+    "shipping_original_bound_file_checks": 14,
+    "new_October5_directories_retained": 2,
+    "configuration_import": "passed",
+    "child_cwd": "passed",
+    "raw_observations_read": false,
+    "solvers_training_evaluation_run": false
+  },
+  "stderr": "",
+  "ended_at": "2026-10-05T15:02:44.952937+00:00",
+  "wall_seconds": 5.28014536795672
+}

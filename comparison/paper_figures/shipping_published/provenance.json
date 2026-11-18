@@ -1,0 +1,86 @@
+{
+  "source_relative_to_experiment": "workspace/02_results/Moreau/shipping_stopping_revision/production_v2/published/plot_data.json",
+  "source_sha256": "8c13f37d6ac4dbcbca7d18437f38d1feff89b0968d06633178b320aec09f6089",
+  "size_cm": [
+    17.0,
+    5.5
+  ],
+  "nn_color": "blue (#2465aa); original green Moreau experiment",
+  "methods": [
+    "green_moreau",
+    "sro_fa",
+    "saa_knn"
+  ],
+  "return_rule": "stopping_checkpoint",
+  "original_caption": "Green now returns the first passing stopping assessment and its own pool. Only green is freshly replayed in this revision; all other curves are unchanged parent results. Unmodified comparator provenance (including cached flags) describes the parent invocation, not new work. Parent comparison context: Both neural families are fresh common strict Gurobi replays with raw q2 > 0 fees; not native Moreau behavior. Historical neural training used Clarabel, not SCS. Green is the approved hybrid of 265 original and 5 advisory-continuation policies. No black shipping-training comparator exists. Cached kNN uses q2 > 1e-6; cached SRO-FA uses q2 > 1e-10, retains time-limited incumbents and missing statuses, and is not freshly evaluated or certified. The conditional 1M MIP estimate is not an exact population bound. Fixed radii only; no test-based annotation, selection, interpolated evaluations, refitting or new reference solve.",
+  "band_definition": "Pointwise 20th/80th percentiles across ten training seeds; not confidence intervals.",
+  "is_definition": "Mean of per-center maxima on the returned checkpoint own saved finite MP pool; not the full adversarial supremum.",
+  "reference": {
+    "kind": "conditional",
+    "label": "Conditional reference (1M)",
+    "value": 19.56794332142972,
+    "source": "/data/home/aviyac/retailers_with_shipping/N50/saa_cond_mip_1m_shipping_exact.json",
+    "cached": true,
+    "current_evaluation_time_s": null,
+    "metadata": {
+      "N": 5000,
+      "M": 200,
+      "seed": 42,
+      "scenarios": 1000000,
+      "relaxed": false,
+      "exact_mip": true,
+      "shipping_binary_note": "z is binary, exact fixed-charge shipping clairvoyant MIP.",
+      "saa_cond_mip_1m_shipping_exact": 19.56794332142972,
+      "status": "OPTIMAL",
+      "proven_optimal": true,
+      "best_bound": 19.488449380294433,
+      "mip_gap": 0.004062457654823084,
+      "sol_count": 3,
+      "node_count": 1.0,
+      "time_limit_s": 86400.0,
+      "mip_gap_target": 0.005,
+      "Q10": 21.297255637201854,
+      "Q1r": [
+        7.720679701459932,
+        7.6956941810779105,
+        7.685101318943119
+      ],
+      "solve_time_s": 1762.0713429450989,
+      "best_nominal_neural_seed": 2,
+      "best_nominal_neural_cost": 20.143906823550317,
+      "gap_best_nominal_neural_minus_exact_mip": 0.5759635021205973,
+      "nominal_neural_costs": {
+        "0": 20.792043621879458,
+        "1": 21.181902506634994,
+        "2": 20.143906823550317,
+        "3": 20.780508194329144,
+        "4": 21.198726006236196,
+        "5": 20.712478864792185,
+        "6": 20.35399209395554,
+        "7": 20.92421443407523,
+        "8": 20.634380898844864,
+        "9": 20.97782907904711
+      },
+      "total_time_s": 1803.2490136623383
+    },
+    "interpretation": "Finite 1M-scenario clairvoyant MIP estimate; not an exact population bound. OPTIMAL is the saved tolerance-based solver status; the nonzero MIP gap and best bound are preserved. Shared source reuse is not a new solve."
+  },
+  "new_training_or_evaluation": false,
+  "nn_training_counts": {
+    "50": 50,
+    "200": 200,
+    "800": 800
+  },
+  "saa_knn_display": "Gold saved OOS mean with seed 20/80 percentile band; no new evaluation.",
+  "full_n_nn": {
+    "source_relative_to_experiment": "workspace/05_history/original_paths/retailers_moreau_training_selected/green_fullN_cv_20261011/runs/production_v1/published/shipping_R3/plot_data.json",
+    "sha256": "0298b807a44e48796c10c278b2a3869263409a5ffe3c8886feb2f57f9be4c697",
+    "training_seal_sha256": "e745f72675d9bdfb340624b718c25bfbf849989478df9647e11f6adbd0bfa3ee",
+    "verified_full_n_training_summaries": 270,
+    "protocol": "Train-only five-fold nominal LR CV, fresh all-N refit, STOP CCG.",
+    "original_full_n_footnote": "shipping_R3: Historical 10000-scenario test, seed 9999, already seen. Full-N refit after train-only five-fold nominal LR CV. Fixed-grid displayed-mean\nminimum is descriptive hindsight, not practical radius selection or a fresh confirmatory test. Own-pool IS is a finite-pool objective, not a robust\ncertificate.",
+    "comparators_and_references": "Unchanged; test array identities and seeds matched.",
+    "new_training_or_evaluation": false
+  },
+  "nn_protocol": "Existing train-only five-fold LR CV and fresh all-N refit; stopping-checkpoint CCG."
+}

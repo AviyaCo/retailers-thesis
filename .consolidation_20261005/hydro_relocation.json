@@ -1,0 +1,372 @@
+{
+  "status": "relocated_verified",
+  "started_at": "2026-10-05T11:36:51.738803+00:00",
+  "method": "same-filesystem rename with complete metadata/inode inventory",
+  "workers": 1,
+  "roots": [
+    {
+      "source": "/data/home/aviyac/hydro_rcr",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr",
+      "metadata_before": "d437a9dc9e6ecca475b6f8a9ce1369c9d53470564a23fe643b62399af04bee6c",
+      "status": "verified",
+      "metadata_after": "d437a9dc9e6ecca475b6f8a9ce1369c9d53470564a23fe643b62399af04bee6c"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_rcr_forgetting_factor_a",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_forgetting_factor_a",
+      "metadata_before": "86e4e1a8b8db085d4560dee5bd6e621398154070782dcb9454bc86593103a4f3",
+      "status": "verified",
+      "metadata_after": "86e4e1a8b8db085d4560dee5bd6e621398154070782dcb9454bc86593103a4f3"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_rcr_stable_mixing_b",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_stable_mixing_b",
+      "metadata_before": "903fac14bc07c4ea0fdb2637300b8378436b0c4e2fa749ff07772a0c050fb57b",
+      "status": "verified",
+      "metadata_after": "903fac14bc07c4ea0fdb2637300b8378436b0c4e2fa749ff07772a0c050fb57b"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_rcr_rescaled",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_rescaled",
+      "metadata_before": "95397601e3a070bf2697fbeddfbdac3fbd4b26b2a2942b53af1da6fa0c597a9a",
+      "status": "verified",
+      "metadata_after": "95397601e3a070bf2697fbeddfbdac3fbd4b26b2a2942b53af1da6fa0c597a9a"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_rcr_moreau_from_scratch",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/moreau_nominal/hydro_rcr_moreau_from_scratch",
+      "metadata_before": "6a3ae0ff7dcce7c7521ec0b901d030367978a8d37c34cdabcb1c29d1b213d49b",
+      "status": "verified",
+      "metadata_after": "6a3ae0ff7dcce7c7521ec0b901d030367978a8d37c34cdabcb1c29d1b213d49b"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_ap10000_extension",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap10000_extension",
+      "metadata_before": "a320601b2fe0d0f504d37b4f1aa4b738b9e83617ecfe991893b5257aa30c176a",
+      "status": "verified",
+      "metadata_after": "a320601b2fe0d0f504d37b4f1aa4b738b9e83617ecfe991893b5257aa30c176a"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_ap_bounded_trial",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_trial",
+      "metadata_before": "55c4ac2dc7215a2b800dc81f014f1a2ef57074d73b29969e127f2a201bc078d2",
+      "status": "verified",
+      "metadata_after": "55c4ac2dc7215a2b800dc81f014f1a2ef57074d73b29969e127f2a201bc078d2"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_ap_bounded_recheck",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_recheck",
+      "metadata_before": "51cbdfadfb9ac5ae5c2ed98a98230d44fa65594b8d7bb42254b9d3370341b534",
+      "status": "verified",
+      "metadata_after": "51cbdfadfb9ac5ae5c2ed98a98230d44fa65594b8d7bb42254b9d3370341b534"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_ap_bounded_parallel_continue",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_parallel_continue",
+      "metadata_before": "91af46a94406b30cd770b8323ff0cfce4957f2f79fdbe6edb0c46f5ca043ecf3",
+      "status": "verified",
+      "metadata_after": "91af46a94406b30cd770b8323ff0cfce4957f2f79fdbe6edb0c46f5ca043ecf3"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_moreau_ccg_one_cycle",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_one_cycle",
+      "metadata_before": "3d1a6e389500e554d4fd7e731c96c419262ba80674a820590b5708b9a6e2bd6d",
+      "status": "verified",
+      "metadata_after": "3d1a6e389500e554d4fd7e731c96c419262ba80674a820590b5708b9a6e2bd6d"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_moreau_ccg_second_cycle",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_second_cycle",
+      "metadata_before": "95db5bd955427ed9eaca808a8a5922b34c90fa2b31b5d06f0973c89efae79096",
+      "status": "verified",
+      "metadata_after": "95db5bd955427ed9eaca808a8a5922b34c90fa2b31b5d06f0973c89efae79096"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_moreau_ccg_until_convergence",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_until_convergence",
+      "metadata_before": "9e50ed0e45568d8693c47e41c3800645f54bebf25c3a1f366dcbe2f026871e93",
+      "status": "verified",
+      "metadata_after": "9e50ed0e45568d8693c47e41c3800645f54bebf25c3a1f366dcbe2f026871e93"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_moreau_ccg_gap_tolerance",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_gap_tolerance",
+      "metadata_before": "b6518b1ab9f0993c9acd57230ddad596d6fa7a46aafc8c92342e6a928a7f2d05",
+      "status": "verified",
+      "metadata_after": "b6518b1ab9f0993c9acd57230ddad596d6fa7a46aafc8c92342e6a928a7f2d05"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_moreau_validation_radius_half",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_validation_radius_half",
+      "metadata_before": "b3727077cdd16992aba1c66871a62dfbddbeda58acc2bd881bba62e8fb12d6f7",
+      "status": "verified",
+      "metadata_after": "b3727077cdd16992aba1c66871a62dfbddbeda58acc2bd881bba62e8fb12d6f7"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_moreau_small_radius_grid",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_small_radius_grid",
+      "metadata_before": "ec74ba1d2816e31495c9a3e0123785767790f4b8f280718c253fb8d1143285c7",
+      "status": "verified",
+      "metadata_after": "ec74ba1d2816e31495c9a3e0123785767790f4b8f280718c253fb8d1143285c7"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_center34_investigation",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/numerical_diagnostics/hydro_center34_investigation",
+      "metadata_before": "d12e056a2c44699fdcb28079c48400d5378436a541ae7b18e5499c761863369b",
+      "status": "verified",
+      "metadata_after": "d12e056a2c44699fdcb28079c48400d5378436a541ae7b18e5499c761863369b"
+    },
+    {
+      "source": "/data/home/aviyac/hydro_sddp_empirical_reference",
+      "destination": "/data/home/aviyac/hydro_experiment/workspace/05_history/sddp_reference/hydro_sddp_empirical_reference",
+      "metadata_before": "4403c1b827821e2e35d50dea04a37dd3018758f9d008e776840f754f26d031c4",
+      "status": "verified",
+      "metadata_after": "4403c1b827821e2e35d50dea04a37dd3018758f9d008e776840f754f26d031c4"
+    }
+  ],
+  "navigation": [
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/nominal_moreau/run_experiment.py",
+      "old": "../../../../hydro_rcr_moreau_from_scratch/run_experiment.py",
+      "new": "../../05_history/moreau_nominal/hydro_rcr_moreau_from_scratch/run_experiment.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/tests",
+      "old": "../../../../hydro_rcr_rescaled/tests",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/tests"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/evaluate.py",
+      "old": "../../../../hydro_rcr_rescaled/evaluate.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/evaluate.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/ap.py",
+      "old": "../../../../hydro_rcr_rescaled/ap.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/ap.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/config.py",
+      "old": "../../../../hydro_rcr_rescaled/config.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/config.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/policy.py",
+      "old": "../../../../hydro_rcr_rescaled/policy.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/policy.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/native_qp_diagnostic.py",
+      "old": "../../../../hydro_rcr_rescaled/native_qp_diagnostic.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/native_qp_diagnostic.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/sro_ccg.py",
+      "old": "../../../../hydro_rcr_rescaled/sro_ccg.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/sro_ccg.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/train.py",
+      "old": "../../../../hydro_rcr_rescaled/train.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/train.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/rescaled_model/validate_native_training.py",
+      "old": "../../../../hydro_rcr_rescaled/validate_native_training.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_rescaled/validate_native_training.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/perfect_information_lb/run_saa_benchmark.py",
+      "old": "../../../../hydro_rcr/run_saa_benchmark.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr/run_saa_benchmark.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/perfect_information_lb/saa.py",
+      "old": "../../../../hydro_rcr/saa.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr/saa.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/small_radius_ccg/common.py",
+      "old": "../../../../hydro_moreau_small_radius_grid/common.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_small_radius_grid/common.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/small_radius_ccg/ap.py",
+      "old": "../../../../hydro_moreau_small_radius_grid/ap.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_small_radius_grid/ap.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/small_radius_ccg/run_grid.py",
+      "old": "../../../../hydro_moreau_small_radius_grid/run_grid.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_small_radius_grid/run_grid.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/small_radius_ccg/preflight.py",
+      "old": "../../../../hydro_moreau_small_radius_grid/preflight.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_small_radius_grid/preflight.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/small_radius_ccg/ccg.py",
+      "old": "../../../../hydro_moreau_small_radius_grid/ccg.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_small_radius_grid/ccg.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/radius_half_posthoc/gap_rule.py",
+      "old": "../../../../hydro_moreau_ccg_gap_tolerance/gap_rule.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_ccg_gap_tolerance/gap_rule.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/radius_half_posthoc/evaluate_validation.py",
+      "old": "../../../../hydro_moreau_validation_radius_half/evaluate_validation.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_validation_radius_half/evaluate_validation.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/radius_half_posthoc/recheck.py",
+      "old": "../../../../hydro_moreau_ccg_gap_tolerance/recheck.py",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_ccg_gap_tolerance/recheck.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/matlab",
+      "old": "../../../../hydro_sddp_empirical_reference/matlab",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/matlab"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/julia",
+      "old": "../../../../hydro_sddp_empirical_reference/julia",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/julia"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/Manifest.toml",
+      "old": "../../../../hydro_sddp_empirical_reference/Manifest.toml",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/Manifest.toml"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/Project.toml",
+      "old": "../../../../hydro_sddp_empirical_reference/Project.toml",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/Project.toml"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/run_campaign.py",
+      "old": "../../../../hydro_sddp_empirical_reference/run_campaign.py",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/run_campaign.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/prepare_inputs.py",
+      "old": "../../../../hydro_sddp_empirical_reference/prepare_inputs.py",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/prepare_inputs.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/01_code/sddp/preflight.py",
+      "old": "../../../../hydro_sddp_empirical_reference/preflight.py",
+      "new": "../../05_history/sddp_reference/hydro_sddp_empirical_reference/preflight.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/03_figures/legacy_nominal_A_B/inputs_A",
+      "old": "../../../../hydro_rcr_forgetting_factor_a/results",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_forgetting_factor_a/results"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/03_figures/legacy_nominal_A_B/inputs_B",
+      "old": "../../../../hydro_rcr_stable_mixing_b/results",
+      "new": "../../05_history/legacy_nominal/hydro_rcr_stable_mixing_b/results"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/03_figures/legacy_nominal_A_B/nominal_training_loss_A_vs_B.png",
+      "old": "../../../../hydro_rcr/results/nominal_training_loss_A_vs_B.png",
+      "new": "../../05_history/legacy_nominal/hydro_rcr/results/nominal_training_loss_A_vs_B.png"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/03_figures/legacy_nominal_A_B/plot_nominal_training_loss.py",
+      "old": "../../../../hydro_rcr/plot_nominal_training_loss.py",
+      "new": "../../05_history/legacy_nominal/hydro_rcr/plot_nominal_training_loss.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/03_figures/legacy_nominal_A_B/nominal_training_loss_A_vs_B.pdf",
+      "old": "../../../../hydro_rcr/results/nominal_training_loss_A_vs_B.pdf",
+      "new": "../../05_history/legacy_nominal/hydro_rcr/results/nominal_training_loss_A_vs_B.pdf"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/04_data_preparation/historical_raw",
+      "old": "../../../hydro_rcr/data/raw",
+      "new": "../05_history/legacy_nominal/hydro_rcr/data/raw"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/04_data_preparation/sddp_prepared_inputs",
+      "old": "../../../hydro_sddp_empirical_reference/inputs",
+      "new": "../05_history/sddp_reference/hydro_sddp_empirical_reference/inputs"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/04_data_preparation/original_config.py",
+      "old": "../../../hydro_rcr/config.py",
+      "new": "../05_history/legacy_nominal/hydro_rcr/config.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/04_data_preparation/prepare_sddp_inputs.py",
+      "old": "../../../hydro_sddp_empirical_reference/prepare_inputs.py",
+      "new": "../05_history/sddp_reference/hydro_sddp_empirical_reference/prepare_inputs.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/04_data_preparation/bounded_training_loader.py",
+      "old": "../../../hydro_rcr_rescaled/validate_native_rollouts.py",
+      "new": "../05_history/legacy_nominal/hydro_rcr_rescaled/validate_native_rollouts.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/04_data_preparation/rescaled_config.py",
+      "old": "../../../hydro_rcr_rescaled/config.py",
+      "new": "../05_history/legacy_nominal/hydro_rcr_rescaled/config.py"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/sddp_reference_REVIEW_before_comparison",
+      "old": "../../../hydro_sddp_empirical_reference/results/seed0_iter2000",
+      "new": "../05_history/sddp_reference/hydro_sddp_empirical_reference/results/seed0_iter2000"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/small_radius_grid_FAILED",
+      "old": "../../../hydro_moreau_small_radius_grid/results/grid_20260916T090259_289586Z",
+      "new": "../05_history/ccg_chronology/hydro_moreau_small_radius_grid/results/grid_20260916T090259_289586Z"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/center34_diagnostics_NOT_production_fix",
+      "old": "../../../hydro_center34_investigation/results",
+      "new": "../05_history/numerical_diagnostics/hydro_center34_investigation/results"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/perfect_information_lb_raw_units.json",
+      "old": "../../../hydro_rcr/results/saa_train_55.json",
+      "new": "../05_history/legacy_nominal/hydro_rcr/results/saa_train_55.json"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/nominal_moreau/base",
+      "old": "../../../../hydro_rcr_moreau_from_scratch/results/base",
+      "new": "../../05_history/moreau_nominal/hydro_rcr_moreau_from_scratch/results/base"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/nominal_moreau/forgetting",
+      "old": "../../../../hydro_rcr_moreau_from_scratch/results/forgetting",
+      "new": "../../05_history/moreau_nominal/hydro_rcr_moreau_from_scratch/results/forgetting"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/nominal_moreau/stable_mixing",
+      "old": "../../../../hydro_rcr_moreau_from_scratch/results/stable_mixing",
+      "new": "../../05_history/moreau_nominal/hydro_rcr_moreau_from_scratch/results/stable_mixing"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/nominal_moreau/campaign.json",
+      "old": "../../../../hydro_rcr_moreau_from_scratch/results/campaign.json",
+      "new": "../../05_history/moreau_nominal/hydro_rcr_moreau_from_scratch/results/campaign.json"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/radius_half_flagged/posthoc_gap_audit",
+      "old": "../../../../hydro_moreau_ccg_gap_tolerance/results/recheck_v2_20260915",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_ccg_gap_tolerance/results/recheck_v2_20260915"
+    },
+    {
+      "path": "/data/home/aviyac/hydro_experiment/workspace/02_results/radius_half_flagged/validation",
+      "old": "../../../../hydro_moreau_validation_radius_half/results/validation_seed0_radius_half",
+      "new": "../../05_history/ccg_chronology/hydro_moreau_validation_radius_half/results/validation_seed0_radius_half"
+    }
+  ],
+  "original_bytes_deleted": 0,
+  "ended_at": "2026-10-05T11:36:54.932879+00:00",
+  "wall_seconds": 3.1941002309904434
+}

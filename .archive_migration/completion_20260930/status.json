@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "start_utc": "2026-09-30T11:47:28.748815+00:00",
+  "clock": "time.perf_counter",
+  "timing_unit": "seconds",
+  "kind": "backup completion, not experiment",
+  "verified_files": 7184,
+  "originals_modified": false,
+  "archived_evidence_overwritten": false,
+  "files_expected": 7184,
+  "bytes_expected": 125070443,
+  "source_files_by_root": {
+    "retailers_moreau": 10386,
+    "retailers_moreau_N50_R3_net16_v2": 12,
+    "retailers_moreau_training_selected": 1380887,
+    "retailers_problem": 19326,
+    "retailers_scs_vs_moreau": 19,
+    "retailers_with_shipping": 6544
+  },
+  "source_files_total": 1417174,
+  "guarantee": "All six original retailers roots covered. New gaps SHA256 verified; existing copies size/mtime checked, mismatches hashed. Original archived bytes never overwritten. Point-in-time only.",
+  "end_utc": "2026-09-30T11:48:26.094603+00:00",
+  "wall_time_s": 57.34590561100049
+}

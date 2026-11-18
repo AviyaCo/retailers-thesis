@@ -1,0 +1,1914 @@
+{
+  "selection_seal_sha256": "bac0cf39b8bf0ffc5c67b94f334086fdb83123eaa324c12403ef89eacbe85de5",
+  "results": [
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 0,
+      "rho": 1.5,
+      "id": "FA_R10_N50_s0_r1.5",
+      "validation_mean": 84.92465717778252,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s0_r1.5.npz",
+      "policy_sha256": "9420c6469f1628c174d9115e44f776e5b53d7736fba60b7caab55485133dcf1d",
+      "test": {
+        "mean": 72.95999605618701,
+        "wall_time_s": 0.035966058960184455
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 1,
+      "rho": 1.0,
+      "id": "FA_R10_N50_s1_r1",
+      "validation_mean": 76.04078929990672,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s1_r1.npz",
+      "policy_sha256": "0ed5322e86a8d7fcd59d7c17280094bd6a42c9a567efc223ce8fdf29764a292c",
+      "test": {
+        "mean": 75.31119538845853,
+        "wall_time_s": 0.03476111893542111
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 2,
+      "rho": 1.5,
+      "id": "FA_R10_N50_s2_r1.5",
+      "validation_mean": 72.91358254536448,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s2_r1.5.npz",
+      "policy_sha256": "fe01f951cc32ac2093123740404106ca049b450d0185af2cc8a7352715418260",
+      "test": {
+        "mean": 73.04211404706184,
+        "wall_time_s": 0.033753486117348075
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 3,
+      "rho": 1.5,
+      "id": "FA_R10_N50_s3_r1.5",
+      "validation_mean": 81.11020315051624,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s3_r1.5.npz",
+      "policy_sha256": "3a7b72ff5cb7b07d8f012a0565e21079d5f0eade6fd98c175aeeb985701fc34a",
+      "test": {
+        "mean": 73.3589417911455,
+        "wall_time_s": 0.03461704100482166
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 4,
+      "rho": 1.5,
+      "id": "FA_R10_N50_s4_r1.5",
+      "validation_mean": 70.87009319505233,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s4_r1.5.npz",
+      "policy_sha256": "46a4d31a069c4fc4deaf8c1dbe54c55e680f83a16519945e95870c535a91573e",
+      "test": {
+        "mean": 73.79475771429037,
+        "wall_time_s": 0.023657171055674553
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 5,
+      "rho": 1.0,
+      "id": "FA_R10_N50_s5_r1",
+      "validation_mean": 78.8948611336866,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s5_r1.npz",
+      "policy_sha256": "6a299c707167dfbfdfaf70c4bcedca83043b4780cd48b718073079e2394a3aae",
+      "test": {
+        "mean": 73.86839886243901,
+        "wall_time_s": 0.023603762965649366
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 6,
+      "rho": 0.75,
+      "id": "FA_R10_N50_s6_r0.75",
+      "validation_mean": 82.79622297182358,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s6_r0.75.npz",
+      "policy_sha256": "2e65484b56c64e417a4ceab283a5740eb7c6426bfb1db65643a45bfd989b1991",
+      "test": {
+        "mean": 75.29649055501226,
+        "wall_time_s": 0.023633386008441448
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 7,
+      "rho": 1.0,
+      "id": "FA_R10_N50_s7_r1",
+      "validation_mean": 70.28736358368033,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s7_r1.npz",
+      "policy_sha256": "a8577b907d8db5a2cc0a897be5eed0b0d67707ae436451d751b110a08d038849",
+      "test": {
+        "mean": 74.68080285109725,
+        "wall_time_s": 0.023668093141168356
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 8,
+      "rho": 1.5,
+      "id": "FA_R10_N50_s8_r1.5",
+      "validation_mean": 80.50507397394945,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s8_r1.5.npz",
+      "policy_sha256": "99ea68b913f3bf26404c5b75533aaf7494f02c627144b89c49c6dc1eda360a06",
+      "test": {
+        "mean": 72.95274149895548,
+        "wall_time_s": 0.023646141169592738
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 50,
+      "seed": 9,
+      "rho": 1.0,
+      "id": "FA_R10_N50_s9_r1",
+      "validation_mean": 74.58101411842242,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N50_s9_r1.npz",
+      "policy_sha256": "dd0c1a2a39cc2abcda736dc2098030830dfedd6caf95747e1a3e768968728b14",
+      "test": {
+        "mean": 73.70011483627572,
+        "wall_time_s": 0.02417985419742763
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 0,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s0_r1.5",
+      "validation_mean": 76.53213840590091,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s0_r1.5.npz",
+      "policy_sha256": "569ba791a6c19f2c9e6ce76e191f85a27767ddac1b0e58dea774e836a827e418",
+      "test": {
+        "mean": 72.83429675845728,
+        "wall_time_s": 0.07737160800024867
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 1,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s1_r1.5",
+      "validation_mean": 75.25567009791723,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s1_r1.5.npz",
+      "policy_sha256": "4b789000a9122bf12633f094a1e008a97323079408446570b54978955791834a",
+      "test": {
+        "mean": 72.719955215963,
+        "wall_time_s": 0.07784946099855006
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 2,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s2_r1.5",
+      "validation_mean": 72.08608795953054,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s2_r1.5.npz",
+      "policy_sha256": "ed8d5e977153fd0359f16d626002fd421482af68a1f9e512d5a5de0c526bd3d6",
+      "test": {
+        "mean": 72.7721677133593,
+        "wall_time_s": 0.07806939096190035
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 3,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s3_r1.5",
+      "validation_mean": 74.3499734485726,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s3_r1.5.npz",
+      "policy_sha256": "de2072d54da7de28ecf08539f1af2f884bb2b6176df89d5c59e667d29867e559",
+      "test": {
+        "mean": 72.3293968330763,
+        "wall_time_s": 0.07824647100642323
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 4,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s4_r1.5",
+      "validation_mean": 69.94968473547063,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s4_r1.5.npz",
+      "policy_sha256": "67defdbc7dda4881ed91c0965ee09b7cffc33b6a623cb95a2c56659bd4efd6fd",
+      "test": {
+        "mean": 72.95177575207342,
+        "wall_time_s": 0.0780064589343965
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 5,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s5_r1.5",
+      "validation_mean": 67.23272343464427,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s5_r1.5.npz",
+      "policy_sha256": "a9ccc0a06c59b041014892619f8303576ed1af5e5586ac4480ec0ab2d07d72c7",
+      "test": {
+        "mean": 72.43516860379171,
+        "wall_time_s": 0.07822036906145513
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 6,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s6_r1.5",
+      "validation_mean": 73.60991692506443,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s6_r1.5.npz",
+      "policy_sha256": "97d4637bde4a43c7d95a35c0fbb6b4db6f17103018fa91c7f80e78161c2a1791",
+      "test": {
+        "mean": 72.63265429572985,
+        "wall_time_s": 0.07819181308150291
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 7,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s7_r1.5",
+      "validation_mean": 69.57196910781721,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s7_r1.5.npz",
+      "policy_sha256": "f3bbb4d08ae6f75738490346eeccd0272d64e722e24916bac16f1bb3ae2610d7",
+      "test": {
+        "mean": 72.55288299648993,
+        "wall_time_s": 0.07829327695071697
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 8,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s8_r1.5",
+      "validation_mean": 68.48788093192904,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s8_r1.5.npz",
+      "policy_sha256": "b40e4ac11b9b94a49093e09a492e4f6d778248c38c8c9f691d5f580e85a2ff22",
+      "test": {
+        "mean": 72.3622954853798,
+        "wall_time_s": 0.07815873995423317
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 200,
+      "seed": 9,
+      "rho": 1.5,
+      "id": "FA_R10_N200_s9_r1.5",
+      "validation_mean": 71.25361718848202,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N200_s9_r1.5.npz",
+      "policy_sha256": "e8f2c2f108be69f761e44ce6fdd891c0c87bc59141578bdc6307be54dd2d0e16",
+      "test": {
+        "mean": 72.31197096945915,
+        "wall_time_s": 0.07830012310296297
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 0,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s0_r1",
+      "validation_mean": 76.1116169991233,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s0_r1.npz",
+      "policy_sha256": "a5c3d3975396c6a4752e3397ecb2f8bb9910c1dca9335912d8f7b2503a644d54",
+      "test": {
+        "mean": 72.20235235205153,
+        "wall_time_s": 0.21302540297619998
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 1,
+      "rho": 0.8,
+      "id": "FA_R10_N800_s1_r0.8",
+      "validation_mean": 69.29858192499954,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s1_r0.8.npz",
+      "policy_sha256": "49ff9996043d39fe4aa37f5919f795a774b222b6ba7d2f97bb9beda7f3c6ce27",
+      "test": {
+        "mean": 72.52209077861131,
+        "wall_time_s": 0.2151746889576316
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 2,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s2_r1",
+      "validation_mean": 72.04291468695355,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s2_r1.npz",
+      "policy_sha256": "68f133bf3a06acdf49ac2cbf537cbfb0d66bb4b70e9a598292cd2c1d6ab038af",
+      "test": {
+        "mean": 72.23360755004505,
+        "wall_time_s": 0.21375399618409574
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 3,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s3_r1",
+      "validation_mean": 70.08703289618077,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s3_r1.npz",
+      "policy_sha256": "0bfb6af06ade3bd4fd3886a258ca5d1b35ba854a5a7396270efc9ffacdc13da6",
+      "test": {
+        "mean": 72.2576823403152,
+        "wall_time_s": 0.21516654104925692
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 4,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s4_r1",
+      "validation_mean": 72.19083709523143,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s4_r1.npz",
+      "policy_sha256": "f25f80429712bde6f5517ad98197face789bac8d21f468d8ede3b4fc9c47b322",
+      "test": {
+        "mean": 72.27096281297759,
+        "wall_time_s": 0.2127122050151229
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 5,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s5_r1",
+      "validation_mean": 72.65897173124338,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s5_r1.npz",
+      "policy_sha256": "88f500bd8390b30764c94d3c01c460804d59db2407e5aacc407da6acfbd26b5b",
+      "test": {
+        "mean": 72.13012135993668,
+        "wall_time_s": 0.21509566088207066
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 6,
+      "rho": 1.5,
+      "id": "FA_R10_N800_s6_r1.5",
+      "validation_mean": 74.62913675558227,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s6_r1.5.npz",
+      "policy_sha256": "93f7891dbfea4c440b268496076c5d047fa148ad0e9cfb243a47cc164ddc3cd7",
+      "test": {
+        "mean": 72.43533874235234,
+        "wall_time_s": 0.21245204517617822
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 7,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s7_r1",
+      "validation_mean": 71.48527368475297,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s7_r1.npz",
+      "policy_sha256": "5305ffe6694e3ff326efde9992e4aa9be02bd8e4a2392542c848b69d1fc8a82b",
+      "test": {
+        "mean": 72.27917609625912,
+        "wall_time_s": 0.21462800120934844
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 8,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s8_r1",
+      "validation_mean": 68.47517460896987,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s8_r1.npz",
+      "policy_sha256": "fe2d849e323b9c28a884c66f043ed880ed25c95439139021489e618192f3b03a",
+      "test": {
+        "mean": 72.30579508750259,
+        "wall_time_s": 0.2121599749661982
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R10",
+      "n": 800,
+      "seed": 9,
+      "rho": 1.0,
+      "id": "FA_R10_N800_s9_r1",
+      "validation_mean": 66.59877464686372,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R10_N800_s9_r1.npz",
+      "policy_sha256": "4ab7765af05f0a139f4b832adf6933385a741682731b9ba085c8f0c6fd5b2897",
+      "test": {
+        "mean": 72.25629243499796,
+        "wall_time_s": 0.21532575995661318
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 0,
+      "rho": 0.45,
+      "id": "FA_R3_N50_s0_r0.45",
+      "validation_mean": 19.460690086385405,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s0_r0.45.npz",
+      "policy_sha256": "7dd65478974fecc663a352c116c7ec950a075157e44d92c4208e874b1262b7b1",
+      "test": {
+        "mean": 21.008549026258912,
+        "wall_time_s": 0.01569439610466361
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 1,
+      "rho": 0.7,
+      "id": "FA_R3_N50_s1_r0.7",
+      "validation_mean": 17.975621849657223,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s1_r0.7.npz",
+      "policy_sha256": "c855e7a8620fcf73851e146a341e6582a3455927e3f2f6d4e486c6412a04bbe2",
+      "test": {
+        "mean": 21.525939872682475,
+        "wall_time_s": 0.015705086989328265
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 2,
+      "rho": 0.75,
+      "id": "FA_R3_N50_s2_r0.75",
+      "validation_mean": 22.038540001896912,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s2_r0.75.npz",
+      "policy_sha256": "e87ce8af11ec682c96770c1bd801d084542d94ac408fe3a71763a5170adcf6d6",
+      "test": {
+        "mean": 21.1359852185589,
+        "wall_time_s": 0.015648085856810212
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 3,
+      "rho": 0.6,
+      "id": "FA_R3_N50_s3_r0.6",
+      "validation_mean": 19.11421509595334,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s3_r0.6.npz",
+      "policy_sha256": "051bd8eba099099069f9a30f3e2f301b2a4ec8990259e1126305e8e130490e70",
+      "test": {
+        "mean": 20.97551187891886,
+        "wall_time_s": 0.01562629803083837
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 4,
+      "rho": 0.2,
+      "id": "FA_R3_N50_s4_r0.2",
+      "validation_mean": 19.49497063484379,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s4_r0.2.npz",
+      "policy_sha256": "420302d7e4494c5f3c63f28966f70c46e2babee7606fbb0ddbb69bc9a2eedf13",
+      "test": {
+        "mean": 21.55990366012002,
+        "wall_time_s": 0.015666430816054344
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 5,
+      "rho": 0.75,
+      "id": "FA_R3_N50_s5_r0.75",
+      "validation_mean": 16.465550141599756,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s5_r0.75.npz",
+      "policy_sha256": "37b845cc743ff320ef14729ba1a683cd4e8d874012e420daba24970bc5b83638",
+      "test": {
+        "mean": 21.849430341301098,
+        "wall_time_s": 0.01567761111073196
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 6,
+      "rho": 0.55,
+      "id": "FA_R3_N50_s6_r0.55",
+      "validation_mean": 22.08378252627173,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s6_r0.55.npz",
+      "policy_sha256": "35fb532f93db019cf0e4762b5de6f3be3947ea91018b7c7383ba65c616232eb6",
+      "test": {
+        "mean": 21.44458679291646,
+        "wall_time_s": 0.015653376933187246
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 7,
+      "rho": 0.7,
+      "id": "FA_R3_N50_s7_r0.7",
+      "validation_mean": 14.205009348158967,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s7_r0.7.npz",
+      "policy_sha256": "d992720631027160df97837fb63fa6b4d62aa105fae02d872822cdc9e30462ef",
+      "test": {
+        "mean": 21.775595658251312,
+        "wall_time_s": 0.015567729948088527
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 8,
+      "rho": 1.0,
+      "id": "FA_R3_N50_s8_r1",
+      "validation_mean": 20.768232392709365,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s8_r1.npz",
+      "policy_sha256": "a1ed66ebc989b97d875a5d75e45d4c9a586d735ffd8e4bb8f546f81192f6489e",
+      "test": {
+        "mean": 21.269254242622534,
+        "wall_time_s": 0.015528339892625809
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 50,
+      "seed": 9,
+      "rho": 0.65,
+      "id": "FA_R3_N50_s9_r0.65",
+      "validation_mean": 19.29293918488332,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N50_s9_r0.65.npz",
+      "policy_sha256": "c327b9a78278d4de6dd25557742389e769b1f65fb9e8367ea5828500b351b536",
+      "test": {
+        "mean": 21.05304435312994,
+        "wall_time_s": 0.015573340002447367
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 0,
+      "rho": 0.8,
+      "id": "FA_R3_N200_s0_r0.8",
+      "validation_mean": 23.366473776647624,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s0_r0.8.npz",
+      "policy_sha256": "f2079e4d38aedbf21fdc51aa90952c284b744114c64f3035c290b1a98f2ea125",
+      "test": {
+        "mean": 20.498531437617363,
+        "wall_time_s": 0.05606692493893206
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 1,
+      "rho": 0.45,
+      "id": "FA_R3_N200_s1_r0.45",
+      "validation_mean": 23.2907393040718,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s1_r0.45.npz",
+      "policy_sha256": "c4e2bb79818b5f90a20f0595ba13f296461531d596db599b1943fa776b907d4c",
+      "test": {
+        "mean": 20.632607373703596,
+        "wall_time_s": 0.05497209005989134
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 2,
+      "rho": 0.6,
+      "id": "FA_R3_N200_s2_r0.6",
+      "validation_mean": 24.363441364619327,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s2_r0.6.npz",
+      "policy_sha256": "0656e62fbaa2947ae239749e48b953502a201c8a609ebc060afc2e0372acbe6a",
+      "test": {
+        "mean": 20.495711623888788,
+        "wall_time_s": 0.054897663882002234
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 3,
+      "rho": 0.5,
+      "id": "FA_R3_N200_s3_r0.5",
+      "validation_mean": 16.634572876604388,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s3_r0.5.npz",
+      "policy_sha256": "495a20f28e505f30b541ede59d66722d62b57596248f1e137cd5759a155eb65d",
+      "test": {
+        "mean": 20.519027413359897,
+        "wall_time_s": 0.055080482037737966
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 4,
+      "rho": 0.75,
+      "id": "FA_R3_N200_s4_r0.75",
+      "validation_mean": 21.294780415414948,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s4_r0.75.npz",
+      "policy_sha256": "8273d534704f804b9f78633a6dce03a75d259b9843d53e037db01b0ad547cf5b",
+      "test": {
+        "mean": 20.428892570726113,
+        "wall_time_s": 0.05485246400348842
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 5,
+      "rho": 0.4,
+      "id": "FA_R3_N200_s5_r0.4",
+      "validation_mean": 20.02504722551641,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s5_r0.4.npz",
+      "policy_sha256": "3ff9f4ca5d1583329f3e92723c82b509e3d060cb1d59281a4edd7e001f1a0ba0",
+      "test": {
+        "mean": 20.413804222250356,
+        "wall_time_s": 0.05495970998890698
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 6,
+      "rho": 0.2,
+      "id": "FA_R3_N200_s6_r0.2",
+      "validation_mean": 20.35383506668221,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s6_r0.2.npz",
+      "policy_sha256": "b25635e7302c05249baf04537f273b6c84f1f565623f1842e0cea8ae15dcca60",
+      "test": {
+        "mean": 20.861053270223607,
+        "wall_time_s": 0.054985406110063195
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 7,
+      "rho": 0.75,
+      "id": "FA_R3_N200_s7_r0.75",
+      "validation_mean": 20.744243097848113,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s7_r0.75.npz",
+      "policy_sha256": "9ad48b21b552adecda04c1232717087c56d5b54f799cc46f0369e15b5d7d4d7e",
+      "test": {
+        "mean": 20.58838453728552,
+        "wall_time_s": 0.05499614402651787
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 8,
+      "rho": 0.6,
+      "id": "FA_R3_N200_s8_r0.6",
+      "validation_mean": 20.743327359571964,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s8_r0.6.npz",
+      "policy_sha256": "cd8f693ed9930e9fe397d86247d7a5f8a248bf832a0852f4cabf77018c3afe5c",
+      "test": {
+        "mean": 20.4423457348374,
+        "wall_time_s": 0.05477905599400401
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 200,
+      "seed": 9,
+      "rho": 0.2,
+      "id": "FA_R3_N200_s9_r0.2",
+      "validation_mean": 19.609634971481388,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N200_s9_r0.2.npz",
+      "policy_sha256": "3ea1fc4b4f6063aef3614937a403ba4f62d2e7c713c13dab67d019e9204ded1f",
+      "test": {
+        "mean": 20.636293813028185,
+        "wall_time_s": 0.05487775895744562
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 0,
+      "rho": 0.5,
+      "id": "FA_R3_N800_s0_r0.5",
+      "validation_mean": 21.365662158686256,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s0_r0.5.npz",
+      "policy_sha256": "64e5bd05f35cc8eedd47f8d088a49b9dea14dd6f88a19fea0bc093301e287fb7",
+      "test": {
+        "mean": 19.968231628516694,
+        "wall_time_s": 0.21401554509066045
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 1,
+      "rho": 0.3,
+      "id": "FA_R3_N800_s1_r0.3",
+      "validation_mean": 20.450309091657942,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s1_r0.3.npz",
+      "policy_sha256": "93818c99642d72711c2085dda6e2e7b35330861c8142bc4323f77086276acb6e",
+      "test": {
+        "mean": 20.05755435038355,
+        "wall_time_s": 0.21329823089763522
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 2,
+      "rho": 0.6,
+      "id": "FA_R3_N800_s2_r0.6",
+      "validation_mean": 18.86520453740361,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s2_r0.6.npz",
+      "policy_sha256": "deeb78713009309cfa368bba7e23955d681d17b99b28c71993ab06b0bf239266",
+      "test": {
+        "mean": 19.937995170938958,
+        "wall_time_s": 0.2143663470633328
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 3,
+      "rho": 0.5,
+      "id": "FA_R3_N800_s3_r0.5",
+      "validation_mean": 18.500162508099276,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s3_r0.5.npz",
+      "policy_sha256": "a3b7ddb29760e1f23c40432cfadaf8af1f01581beaf51df2110c03a789421319",
+      "test": {
+        "mean": 19.958202233513834,
+        "wall_time_s": 0.21434706705622375
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 4,
+      "rho": 0.5,
+      "id": "FA_R3_N800_s4_r0.5",
+      "validation_mean": 19.466627313400835,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s4_r0.5.npz",
+      "policy_sha256": "4d992ea69c20b4a7fcd536e8721cfec7db1a3bb5568770f9cedd01f9e25dcc4e",
+      "test": {
+        "mean": 19.9609390642309,
+        "wall_time_s": 0.2140980688855052
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 5,
+      "rho": 0.45,
+      "id": "FA_R3_N800_s5_r0.45",
+      "validation_mean": 19.823368939845057,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s5_r0.45.npz",
+      "policy_sha256": "710cba5f35775844d7eda97491ca58126d2a00c53cf17466358f26716d2edfec",
+      "test": {
+        "mean": 19.964395477732154,
+        "wall_time_s": 0.2147226941306144
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 6,
+      "rho": 0.4,
+      "id": "FA_R3_N800_s6_r0.4",
+      "validation_mean": 20.516804031405876,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s6_r0.4.npz",
+      "policy_sha256": "921bc21fd1bb40dd5d5b74a4754b3cdeb3472cd09c1424ab99e9917c614e886c",
+      "test": {
+        "mean": 20.00097448091511,
+        "wall_time_s": 0.21432267082855105
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 7,
+      "rho": 0.5,
+      "id": "FA_R3_N800_s7_r0.5",
+      "validation_mean": 21.434107933027285,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s7_r0.5.npz",
+      "policy_sha256": "e05d6311c22385103a95f22751bdd2a076244ea2d300a633f0e661487b9ad4b2",
+      "test": {
+        "mean": 19.964687557068302,
+        "wall_time_s": 0.21414449997246265
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 8,
+      "rho": 0.3,
+      "id": "FA_R3_N800_s8_r0.3",
+      "validation_mean": 19.312815989848136,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s8_r0.3.npz",
+      "policy_sha256": "10a47bc1c6bbc24906b74f84b303bceb1624a6fb14fd524c448412a65b2c7f15",
+      "test": {
+        "mean": 20.08837758956803,
+        "wall_time_s": 0.21429262682795525
+      }
+    },
+    {
+      "method": "FA",
+      "case": "R3",
+      "n": 800,
+      "seed": 9,
+      "rho": 0.5,
+      "id": "FA_R3_N800_s9_r0.5",
+      "validation_mean": 20.182722657232404,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_R3_N800_s9_r0.5.npz",
+      "policy_sha256": "3a351b637d91cc36bb05edc19d25143ec13a5e8ed867228853e920e220d47ce7",
+      "test": {
+        "mean": 19.964305676866655,
+        "wall_time_s": 0.21440776903182268
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 0,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N50_s0_r0.5",
+      "validation_mean": 19.800432883716145,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s0_r0.5.npz",
+      "policy_sha256": "fa5696a36cd54c59e94a29722af528f196ffe6ff1f366bdd0416957eb86425c2",
+      "test": {
+        "mean": 21.458268776677027,
+        "mean_fee_threshold_1e10": 21.458268776677027,
+        "wall_time_s": 0.016522287856787443
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 1,
+      "rho": 0.9,
+      "id": "FA_shipping_R3_N50_s1_r0.9",
+      "validation_mean": 17.99743191227953,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s1_r0.9.npz",
+      "policy_sha256": "4247c82f4c5be16478b922a15ca603ccf6fa117d3f14218459c7a462808a32e9",
+      "test": {
+        "mean": 21.739491317246696,
+        "mean_fee_threshold_1e10": 21.739491317246696,
+        "wall_time_s": 0.016028227983042598
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 2,
+      "rho": 0.8,
+      "id": "FA_shipping_R3_N50_s2_r0.8",
+      "validation_mean": 22.110498372135247,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s2_r0.8.npz",
+      "policy_sha256": "00dbbd9602dd1e637e4139bc52b8a4a9bc4d8ea06f5ddbf8c94dc77bb5115aa4",
+      "test": {
+        "mean": 21.164745615304856,
+        "mean_fee_threshold_1e10": 21.164745615304856,
+        "wall_time_s": 0.01599633600562811
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 3,
+      "rho": 0.9,
+      "id": "FA_shipping_R3_N50_s3_r0.9",
+      "validation_mean": 19.840464471208534,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s3_r0.9.npz",
+      "policy_sha256": "2306cae4f2d4d20316c47d8d386b82d4bd823fe3c1966470124180b62cc8f73f",
+      "test": {
+        "mean": 21.398673110881766,
+        "mean_fee_threshold_1e10": 21.398673110881766,
+        "wall_time_s": 0.01608247891999781
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 4,
+      "rho": 0.9,
+      "id": "FA_shipping_R3_N50_s4_r0.9",
+      "validation_mean": 19.625838028363734,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s4_r0.9.npz",
+      "policy_sha256": "265c4824dfec8028a41cd42272e4747b6440bb0ed610ea1473b21a327d42981d",
+      "test": {
+        "mean": 21.724664856579864,
+        "mean_fee_threshold_1e10": 21.724664856579864,
+        "wall_time_s": 0.01595619902946055
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 5,
+      "rho": 0.9,
+      "id": "FA_shipping_R3_N50_s5_r0.9",
+      "validation_mean": 16.62127723410554,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s5_r0.9.npz",
+      "policy_sha256": "def0a0db2fbba67b3fdd4bacd405862f51a5149dcb5c06197847a14a9d490dff",
+      "test": {
+        "mean": 22.000422751696302,
+        "mean_fee_threshold_1e10": 22.000422751696302,
+        "wall_time_s": 0.01602732390165329
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 6,
+      "rho": 0.7,
+      "id": "FA_shipping_R3_N50_s6_r0.7",
+      "validation_mean": 22.307710114486703,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s6_r0.7.npz",
+      "policy_sha256": "5e9cf13e58a013ee147f0b00e5fc3d4a0105f579c669172b31564df44e39fa26",
+      "test": {
+        "mean": 21.568005237761945,
+        "mean_fee_threshold_1e10": 21.568005237761945,
+        "wall_time_s": 0.016059370944276452
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 7,
+      "rho": 1.3,
+      "id": "FA_shipping_R3_N50_s7_r1.3",
+      "validation_mean": 14.402514321854742,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s7_r1.3.npz",
+      "policy_sha256": "dcb1f1976f7568053f69df7f7d13f3a0efb7bb430b241d33e8682b2a3a3560e5",
+      "test": {
+        "mean": 21.689246664890756,
+        "mean_fee_threshold_1e10": 21.689246664890756,
+        "wall_time_s": 0.015961465891450644
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 8,
+      "rho": 1.2,
+      "id": "FA_shipping_R3_N50_s8_r1.2",
+      "validation_mean": 20.8400378790461,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s8_r1.2.npz",
+      "policy_sha256": "909cd323d8a0868e14062bd76f2669f14ae67d527cb6bce0f99ace51aac18d49",
+      "test": {
+        "mean": 21.63320603888532,
+        "mean_fee_threshold_1e10": 21.63320603888532,
+        "wall_time_s": 0.01602053688839078
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 50,
+      "seed": 9,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N50_s9_r0.5",
+      "validation_mean": 19.30936664045972,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N50_s9_r0.5.npz",
+      "policy_sha256": "c4513b34a7b2c49625d2de8cb7bed2cbe1be6c6fa714467b21eb6d3808559a09",
+      "test": {
+        "mean": 21.156354384409426,
+        "mean_fee_threshold_1e10": 21.156354384409426,
+        "wall_time_s": 0.015985151985660195
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 0,
+      "rho": 0.4,
+      "id": "FA_shipping_R3_N200_s0_r0.4",
+      "validation_mean": 23.715878674658384,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s0_r0.4.npz",
+      "policy_sha256": "fe551c24b7d79af64fd64e7cd7ce7fc48c2bb202f3614834759c339800a36c7c",
+      "test": {
+        "mean": 20.831004318876325,
+        "mean_fee_threshold_1e10": 20.831004318876325,
+        "wall_time_s": 0.05713674100115895
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 1,
+      "rho": 0.2,
+      "id": "FA_shipping_R3_N200_s1_r0.2",
+      "validation_mean": 23.390376821222127,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s1_r0.2.npz",
+      "policy_sha256": "147692da91c94c680b6e75ff19438842f5caae0e10387aab660b31d04bb9e8e7",
+      "test": {
+        "mean": 20.967622047091954,
+        "mean_fee_threshold_1e10": 20.967622047091954,
+        "wall_time_s": 0.05531823402270675
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 2,
+      "rho": 0.3,
+      "id": "FA_shipping_R3_N200_s2_r0.3",
+      "validation_mean": 24.52388922295211,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s2_r0.3.npz",
+      "policy_sha256": "7a9cac31e874d0194a27f4e0e63509dfee1037791f941a2dd20e8262ccad57db",
+      "test": {
+        "mean": 20.92846308779997,
+        "mean_fee_threshold_1e10": 20.92846308779997,
+        "wall_time_s": 0.05534086795523763
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 3,
+      "rho": 0.6,
+      "id": "FA_shipping_R3_N200_s3_r0.6",
+      "validation_mean": 16.93765590544605,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s3_r0.6.npz",
+      "policy_sha256": "08294cd4f874ac83b843a9f7ac20704e383a6b6076df8ef600903835a3d444d3",
+      "test": {
+        "mean": 20.82386546517386,
+        "mean_fee_threshold_1e10": 20.82386546517386,
+        "wall_time_s": 0.05521574686281383
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 4,
+      "rho": 0.7,
+      "id": "FA_shipping_R3_N200_s4_r0.7",
+      "validation_mean": 21.503970682876805,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s4_r0.7.npz",
+      "policy_sha256": "6c5bd117cb590306aaf9d1acce41d6e2966b01a56374fc07431e3f1a6ef56598",
+      "test": {
+        "mean": 20.714769185719128,
+        "mean_fee_threshold_1e10": 20.714769185719128,
+        "wall_time_s": 0.05527273705229163
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 5,
+      "rho": 0.6,
+      "id": "FA_shipping_R3_N200_s5_r0.6",
+      "validation_mean": 20.31513603222124,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s5_r0.6.npz",
+      "policy_sha256": "882ae1608ec79fc1125466609759071050f15dc7fe7a2d1a64e1a4264060ee48",
+      "test": {
+        "mean": 20.73699268274994,
+        "mean_fee_threshold_1e10": 20.73699268274994,
+        "wall_time_s": 0.055253943894058466
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 6,
+      "rho": 0.2,
+      "id": "FA_shipping_R3_N200_s6_r0.2",
+      "validation_mean": 20.25184803447403,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s6_r0.2.npz",
+      "policy_sha256": "2cbb9e43866e7ae1f5b1c4f801ee3b457bf234dcbcb10ba386ccc85e2a169883",
+      "test": {
+        "mean": 21.100538678801026,
+        "mean_fee_threshold_1e10": 21.100538678801026,
+        "wall_time_s": 0.055136924143880606
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 7,
+      "rho": 0.7,
+      "id": "FA_shipping_R3_N200_s7_r0.7",
+      "validation_mean": 21.136451197320195,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s7_r0.7.npz",
+      "policy_sha256": "e1714b860a771be7488fad0ace4c92f5d12952eb1d035ab55e634ddf1aa096f6",
+      "test": {
+        "mean": 20.916733660368948,
+        "mean_fee_threshold_1e10": 20.916733660368948,
+        "wall_time_s": 0.055340440943837166
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 8,
+      "rho": 0.6,
+      "id": "FA_shipping_R3_N200_s8_r0.6",
+      "validation_mean": 21.051239568466265,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s8_r0.6.npz",
+      "policy_sha256": "8f1c9cbb7c45ee83075cfae355be43323847e89fc6f5bca359398d85bea00029",
+      "test": {
+        "mean": 20.819420881244472,
+        "mean_fee_threshold_1e10": 20.819420881244472,
+        "wall_time_s": 0.055147866951301694
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 200,
+      "seed": 9,
+      "rho": 0.3,
+      "id": "FA_shipping_R3_N200_s9_r0.3",
+      "validation_mean": 19.85045142404808,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N200_s9_r0.3.npz",
+      "policy_sha256": "91c77ef3ea01d75fca0e6067846ab08f8663ccbf4470a88f0314d5660ae99a22",
+      "test": {
+        "mean": 20.805877675697424,
+        "mean_fee_threshold_1e10": 20.805877675697424,
+        "wall_time_s": 0.055348522029817104
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 0,
+      "rho": 0.7,
+      "id": "FA_shipping_R3_N800_s0_r0.7",
+      "validation_mean": 21.632153309750166,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s0_r0.7.npz",
+      "policy_sha256": "d269d8e000b5e8af8f11e5379860082029d61546d06165ab639b273ad896d43c",
+      "test": {
+        "mean": 20.25760717420702,
+        "mean_fee_threshold_1e10": 20.25760717420702,
+        "wall_time_s": 0.21372475801035762
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 1,
+      "rho": 0.4,
+      "id": "FA_shipping_R3_N800_s1_r0.4",
+      "validation_mean": 20.705969775325986,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s1_r0.4.npz",
+      "policy_sha256": "862a08aa06a1f18e90e721ef11c1e4a8d13faa38aeefc74b9462e0bfd5747bc4",
+      "test": {
+        "mean": 20.23740216643727,
+        "mean_fee_threshold_1e10": 20.23740216643727,
+        "wall_time_s": 0.21469616098329425
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 2,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N800_s2_r0.5",
+      "validation_mean": 19.131875635440498,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s2_r0.5.npz",
+      "policy_sha256": "c53f861f943db21db2219b25d5a4556a2fd4e389339dc10e2b375e28a8386c35",
+      "test": {
+        "mean": 20.18360032587668,
+        "mean_fee_threshold_1e10": 20.18360032587668,
+        "wall_time_s": 0.21466647507622838
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 3,
+      "rho": 0.4,
+      "id": "FA_shipping_R3_N800_s3_r0.4",
+      "validation_mean": 18.713325029623793,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s3_r0.4.npz",
+      "policy_sha256": "185ad8ae2129bf650f434b2694dd77ce779af8ade6a8fef98ed6de9abf22d72b",
+      "test": {
+        "mean": 20.296522881007554,
+        "mean_fee_threshold_1e10": 20.296522881007554,
+        "wall_time_s": 0.21506212279200554
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 4,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N800_s4_r0.5",
+      "validation_mean": 19.75059765302001,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s4_r0.5.npz",
+      "policy_sha256": "9c65d97fc4904af8236f6c2279f18bbde022826b765c82ed8f1aab347222de32",
+      "test": {
+        "mean": 20.24460436833247,
+        "mean_fee_threshold_1e10": 20.24460436833247,
+        "wall_time_s": 0.21483196900226176
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 5,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N800_s5_r0.5",
+      "validation_mean": 20.048901634686086,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s5_r0.5.npz",
+      "policy_sha256": "2de92964e85be7776ef995653331edc76fc4e818a62e9ec1f249ecdca716d329",
+      "test": {
+        "mean": 20.21850515057216,
+        "mean_fee_threshold_1e10": 20.21850515057216,
+        "wall_time_s": 0.21463389904238284
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 6,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N800_s6_r0.5",
+      "validation_mean": 20.805326238153718,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s6_r0.5.npz",
+      "policy_sha256": "e4096dad80f875bfb2bd2da88ccc70550688fea2874371f2cdd2b6572d073c22",
+      "test": {
+        "mean": 20.1947914350607,
+        "mean_fee_threshold_1e10": 20.1947914350607,
+        "wall_time_s": 0.21493604499846697
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 7,
+      "rho": 0.4,
+      "id": "FA_shipping_R3_N800_s7_r0.4",
+      "validation_mean": 21.67664156486627,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s7_r0.4.npz",
+      "policy_sha256": "c1bb308d08d4fc1ea2fd97bb82bbf21d500cd28e6af121f0a96f51cf7f68154b",
+      "test": {
+        "mean": 20.236407336480674,
+        "mean_fee_threshold_1e10": 20.236407336480674,
+        "wall_time_s": 0.2147407978773117
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 8,
+      "rho": 0.3,
+      "id": "FA_shipping_R3_N800_s8_r0.3",
+      "validation_mean": 19.58107636705505,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s8_r0.3.npz",
+      "policy_sha256": "6cbecdef788decb93ab7a6db3e0e72bfdacf8651ddc92187b511fe9220977228",
+      "test": {
+        "mean": 20.28928239179998,
+        "mean_fee_threshold_1e10": 20.28928239179998,
+        "wall_time_s": 0.2144791199825704
+      }
+    },
+    {
+      "method": "FA",
+      "case": "shipping_R3",
+      "n": 800,
+      "seed": 9,
+      "rho": 0.5,
+      "id": "FA_shipping_R3_N800_s9_r0.5",
+      "validation_mean": 20.46869535005144,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_shipping_R3_N800_s9_r0.5.npz",
+      "policy_sha256": "b3b28e913756b44f5b379e0703daa589a0f6de501e685eb4e111de69a907e625",
+      "test": {
+        "mean": 20.23622367779288,
+        "mean_fee_threshold_1e10": 20.23622367779288,
+        "wall_time_s": 0.21467267000116408
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 0,
+      "rho": 1.0,
+      "id": "FA_LDR_R3_N50_s0_r1",
+      "validation_mean": 19.579292642465752,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s0_r1.npz",
+      "policy_sha256": "97dcfcdb9e063d934968f0330451567ac65149889d2697a5d2692cd9d1ddbb8b",
+      "test": {
+        "mean": 21.166567089184298,
+        "fraction_clipped_negative": 0.0474,
+        "fraction_scaled_capacity": 0.052,
+        "wall_time_s": 0.017386788967996836
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 1,
+      "rho": 0.8,
+      "id": "FA_LDR_R3_N50_s1_r0.8",
+      "validation_mean": 18.090446185547076,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s1_r0.8.npz",
+      "policy_sha256": "f9c09dd214ea90171537308084b31d4cf296875985cf0492a7c1547aa36b1e69",
+      "test": {
+        "mean": 21.88836422066872,
+        "fraction_clipped_negative": 0.0665,
+        "fraction_scaled_capacity": 0.0213,
+        "wall_time_s": 0.016717334045097232
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 2,
+      "rho": 1.0,
+      "id": "FA_LDR_R3_N50_s2_r1",
+      "validation_mean": 22.04689179527972,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s2_r1.npz",
+      "policy_sha256": "2385fae687bdff8c40b16000d89d833b12194f7c2ba3af1ad73c2100487c2677",
+      "test": {
+        "mean": 20.829929550564927,
+        "fraction_clipped_negative": 0.017,
+        "fraction_scaled_capacity": 0.0315,
+        "wall_time_s": 0.016780852107331157
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 3,
+      "rho": 0.4,
+      "id": "FA_LDR_R3_N50_s3_r0.4",
+      "validation_mean": 19.55640792942454,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s3_r0.4.npz",
+      "policy_sha256": "5c32949fc4c6c6c36fb7890ee0c2f3aa6cf394abb8ecc9b3af3218ef240e6091",
+      "test": {
+        "mean": 21.287739361449045,
+        "fraction_clipped_negative": 0.2064,
+        "fraction_scaled_capacity": 0.1187,
+        "wall_time_s": 0.016839879099279642
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 4,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N50_s4_r0.6",
+      "validation_mean": 18.58240969000679,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s4_r0.6.npz",
+      "policy_sha256": "15694d804f46762ecbc8235e535d9b50cb474ee8effc984fc36e2c8062967975",
+      "test": {
+        "mean": 20.940174617728793,
+        "fraction_clipped_negative": 0.0627,
+        "fraction_scaled_capacity": 0.0598,
+        "wall_time_s": 0.016728532034903765
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 5,
+      "rho": 1.5,
+      "id": "FA_LDR_R3_N50_s5_r1.5",
+      "validation_mean": 17.515174324247205,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s5_r1.5.npz",
+      "policy_sha256": "ec532dd930f72d0f21683bd42013e9ec308b0c29872c335685e0e3cfc2e5b211",
+      "test": {
+        "mean": 21.79986653585633,
+        "fraction_clipped_negative": 0.0061,
+        "fraction_scaled_capacity": 0.0066,
+        "wall_time_s": 0.016714179189875722
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 6,
+      "rho": 0.8,
+      "id": "FA_LDR_R3_N50_s6_r0.8",
+      "validation_mean": 21.85094620765979,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s6_r0.8.npz",
+      "policy_sha256": "a51cf925181d4876bcff5347f342374356a313f08b43401b0af1883bd0e52443",
+      "test": {
+        "mean": 21.199995372786884,
+        "fraction_clipped_negative": 0.0471,
+        "fraction_scaled_capacity": 0.0341,
+        "wall_time_s": 0.01669327192939818
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 7,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N50_s7_r0.5",
+      "validation_mean": 14.378924541318849,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s7_r0.5.npz",
+      "policy_sha256": "c665e7619f792acec575398aef9fa8bf6ffea2a72a7266d93034902d03fd0287",
+      "test": {
+        "mean": 21.951938562118233,
+        "fraction_clipped_negative": 0.0834,
+        "fraction_scaled_capacity": 0.055,
+        "wall_time_s": 0.016722616972401738
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 8,
+      "rho": 1.0,
+      "id": "FA_LDR_R3_N50_s8_r1",
+      "validation_mean": 20.6216483633353,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s8_r1.npz",
+      "policy_sha256": "7099818df6372cfc8838a323ce929a6a84685d06f718cabee63465c86a9f146b",
+      "test": {
+        "mean": 21.115331450122653,
+        "fraction_clipped_negative": 0.045,
+        "fraction_scaled_capacity": 0.0424,
+        "wall_time_s": 0.01667463406920433
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 50,
+      "seed": 9,
+      "rho": 0.7,
+      "id": "FA_LDR_R3_N50_s9_r0.7",
+      "validation_mean": 18.81442881686757,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N50_s9_r0.7.npz",
+      "policy_sha256": "1a446b314f63d31806c691a3807258c04dee1b002f2da39249b024099f1d331c",
+      "test": {
+        "mean": 20.83396383313053,
+        "fraction_clipped_negative": 0.0509,
+        "fraction_scaled_capacity": 0.0679,
+        "wall_time_s": 0.016708482056856155
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 0,
+      "rho": 0.75,
+      "id": "FA_LDR_R3_N200_s0_r0.75",
+      "validation_mean": 23.18379150220149,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s0_r0.75.npz",
+      "policy_sha256": "f6c14195a57dfa19aeb7e70790c0997dfadeda5362cdc72757e53d625ae0eb8c",
+      "test": {
+        "mean": 20.441070511747203,
+        "fraction_clipped_negative": 0.023,
+        "fraction_scaled_capacity": 0.0203,
+        "wall_time_s": 0.05784563394263387
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 1,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N200_s1_r0.5",
+      "validation_mean": 23.286216592248838,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s1_r0.5.npz",
+      "policy_sha256": "ce7e1af6563b144a229a48da7be1f5ef2de354ba048b1b1cd1b5151bd95ed658",
+      "test": {
+        "mean": 20.757931705285092,
+        "fraction_clipped_negative": 0.0372,
+        "fraction_scaled_capacity": 0.0494,
+        "wall_time_s": 0.05604948103427887
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 2,
+      "rho": 0.3,
+      "id": "FA_LDR_R3_N200_s2_r0.3",
+      "validation_mean": 24.183951295378044,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s2_r0.3.npz",
+      "policy_sha256": "2b13e2d91545fcd027b17731636ab6edc9b213fc4c74df72eaf5a3f1bfaf4d6a",
+      "test": {
+        "mean": 20.753204858612392,
+        "fraction_clipped_negative": 0.0993,
+        "fraction_scaled_capacity": 0.1086,
+        "wall_time_s": 0.0561011868994683
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 3,
+      "rho": 0.75,
+      "id": "FA_LDR_R3_N200_s3_r0.75",
+      "validation_mean": 16.801353353865686,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s3_r0.75.npz",
+      "policy_sha256": "52c476600aa4ace7f083b32d8520812bea45311a1af9e1e36634e81267988338",
+      "test": {
+        "mean": 20.59484099760109,
+        "fraction_clipped_negative": 0.0159,
+        "fraction_scaled_capacity": 0.0136,
+        "wall_time_s": 0.05627860012464225
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 4,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N200_s4_r0.6",
+      "validation_mean": 21.327552303209067,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s4_r0.6.npz",
+      "policy_sha256": "f1501814f6e590c9f3d725597f2f981b0ab0ff7f0e07b63be3ed4752a53d080f",
+      "test": {
+        "mean": 20.44485146029485,
+        "fraction_clipped_negative": 0.0193,
+        "fraction_scaled_capacity": 0.0244,
+        "wall_time_s": 0.05597892985679209
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 5,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N200_s5_r0.6",
+      "validation_mean": 19.982446987042024,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s5_r0.6.npz",
+      "policy_sha256": "7bb18cbe25187620be4d8eb88104721eae1ebd4027f1ddeebb26cf8d3ccdd60f",
+      "test": {
+        "mean": 20.349949435618566,
+        "fraction_clipped_negative": 0.0244,
+        "fraction_scaled_capacity": 0.0372,
+        "wall_time_s": 0.05597876105457544
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 6,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N200_s6_r0.5",
+      "validation_mean": 20.331138363158548,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s6_r0.5.npz",
+      "policy_sha256": "e4b677f0451d1bee0fac046a69018d607cacd6176bc87d330d4082eaf1f7e492",
+      "test": {
+        "mean": 20.53034033931943,
+        "fraction_clipped_negative": 0.0354,
+        "fraction_scaled_capacity": 0.0383,
+        "wall_time_s": 0.056041217874735594
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 7,
+      "rho": 0.8,
+      "id": "FA_LDR_R3_N200_s7_r0.8",
+      "validation_mean": 20.880051273523172,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s7_r0.8.npz",
+      "policy_sha256": "eb780a48590f410fb683359e97f4acdf519706f9a790086aa466e9962f5dceb8",
+      "test": {
+        "mean": 20.552785445111763,
+        "fraction_clipped_negative": 0.0158,
+        "fraction_scaled_capacity": 0.0163,
+        "wall_time_s": 0.05598276783712208
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 8,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N200_s8_r0.6",
+      "validation_mean": 20.856707932577407,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s8_r0.6.npz",
+      "policy_sha256": "9b6375fa7b4718a3a013df8ae760a7c3201611670cc02b3ea2118a9042a9467a",
+      "test": {
+        "mean": 20.483106681344825,
+        "fraction_clipped_negative": 0.0302,
+        "fraction_scaled_capacity": 0.0278,
+        "wall_time_s": 0.056088389828801155
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 200,
+      "seed": 9,
+      "rho": 0.4,
+      "id": "FA_LDR_R3_N200_s9_r0.4",
+      "validation_mean": 19.629826667611674,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N200_s9_r0.4.npz",
+      "policy_sha256": "2c801ca9311c4035a297ac3c609b0cc3efec7bdcb7e480728662c577bd92d27a",
+      "test": {
+        "mean": 20.542919603732198,
+        "fraction_clipped_negative": 0.0636,
+        "fraction_scaled_capacity": 0.0854,
+        "wall_time_s": 0.05610869801603258
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 0,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N800_s0_r0.5",
+      "validation_mean": 21.32139901559329,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s0_r0.5.npz",
+      "policy_sha256": "2409c8e0b92a0639da22b86ba2f5ba136924cc73eabcc497dc35f93ec8fbb408",
+      "test": {
+        "mean": 19.9717842203371,
+        "fraction_clipped_negative": 0.014,
+        "fraction_scaled_capacity": 0.0151,
+        "wall_time_s": 0.2142886109650135
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 1,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N800_s1_r0.5",
+      "validation_mean": 20.452025030739257,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s1_r0.5.npz",
+      "policy_sha256": "b0d0382c91714911b1c5d96e5150cecd8d5e2c355a42bd66144b9c03e33c0f3d",
+      "test": {
+        "mean": 19.93591883803035,
+        "fraction_clipped_negative": 0.0116,
+        "fraction_scaled_capacity": 0.0124,
+        "wall_time_s": 0.21432346012443304
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 2,
+      "rho": 0.75,
+      "id": "FA_LDR_R3_N800_s2_r0.75",
+      "validation_mean": 18.89301184340868,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s2_r0.75.npz",
+      "policy_sha256": "2aa2e2861a88966fcf8f42652640c4014d53a3c51bec0dee6c402d211a52e723",
+      "test": {
+        "mean": 19.968675059507813,
+        "fraction_clipped_negative": 0.0054,
+        "fraction_scaled_capacity": 0.0051,
+        "wall_time_s": 0.21409916691482067
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 3,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N800_s3_r0.5",
+      "validation_mean": 18.519631433876604,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s3_r0.5.npz",
+      "policy_sha256": "7d564a9d7ac43b6b550ce4c34a8516bdef30503f6c65bc6133ea2ab87f3075c0",
+      "test": {
+        "mean": 19.937588329519446,
+        "fraction_clipped_negative": 0.0136,
+        "fraction_scaled_capacity": 0.016,
+        "wall_time_s": 0.21425275295041502
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 4,
+      "rho": 0.4,
+      "id": "FA_LDR_R3_N800_s4_r0.4",
+      "validation_mean": 19.45466688009919,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s4_r0.4.npz",
+      "policy_sha256": "fa485d9eda2e29280551b76a99600d4c508c24d6e1d129ff15951a880be1c576",
+      "test": {
+        "mean": 20.035096519196404,
+        "fraction_clipped_negative": 0.0167,
+        "fraction_scaled_capacity": 0.0214,
+        "wall_time_s": 0.21409261785447598
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 5,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N800_s5_r0.6",
+      "validation_mean": 19.82508474235746,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s5_r0.6.npz",
+      "policy_sha256": "b1961f6989761a8c5e9deb1d7d8ad6f7f151a4ee0f3465688f986cd40965d7b6",
+      "test": {
+        "mean": 19.959058666495242,
+        "fraction_clipped_negative": 0.0097,
+        "fraction_scaled_capacity": 0.0093,
+        "wall_time_s": 0.2150734760798514
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 6,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N800_s6_r0.6",
+      "validation_mean": 20.557151075503338,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s6_r0.6.npz",
+      "policy_sha256": "96ad1e61bd6c6b82573c7c57ba4246b5e6815a3109dbb01aecf394e180b8bc69",
+      "test": {
+        "mean": 19.97528214376547,
+        "fraction_clipped_negative": 0.0086,
+        "fraction_scaled_capacity": 0.0081,
+        "wall_time_s": 0.21482022106647491
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 7,
+      "rho": 0.6,
+      "id": "FA_LDR_R3_N800_s7_r0.6",
+      "validation_mean": 21.373591785131772,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s7_r0.6.npz",
+      "policy_sha256": "f26e0e9963a1054e3417a5bb0f03ec336830730ce652d5a266cd9eb36e393f5e",
+      "test": {
+        "mean": 19.93341444323966,
+        "fraction_clipped_negative": 0.011,
+        "fraction_scaled_capacity": 0.0131,
+        "wall_time_s": 0.21428422210738063
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 8,
+      "rho": 0.4,
+      "id": "FA_LDR_R3_N800_s8_r0.4",
+      "validation_mean": 19.21076199341912,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s8_r0.4.npz",
+      "policy_sha256": "5edc9d640093e15c05220e880b5f7197f8920bd8223ce4ba202b9d83e28c8fcb",
+      "test": {
+        "mean": 20.017628676374226,
+        "fraction_clipped_negative": 0.0249,
+        "fraction_scaled_capacity": 0.0275,
+        "wall_time_s": 0.21416544588282704
+      }
+    },
+    {
+      "method": "FA+LDR",
+      "case": "R3",
+      "n": 800,
+      "seed": 9,
+      "rho": 0.5,
+      "id": "FA_LDR_R3_N800_s9_r0.5",
+      "validation_mean": 20.174997631600277,
+      "policy_path": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected/sro_nn_split_20261015/runs/production_v1/policies/FA_LDR_R3_N800_s9_r0.5.npz",
+      "policy_sha256": "ced7f8866439cc01420e3496f115c5e70f0b2dbb315690e1411d5021ab0e561b",
+      "test": {
+        "mean": 19.915626777672546,
+        "fraction_clipped_negative": 0.0126,
+        "fraction_scaled_capacity": 0.0168,
+        "wall_time_s": 0.21415680996142328
+      }
+    }
+  ],
+  "invocation": {
+    "started_at_utc": "2026-10-15T06:55:20.386608+00:00",
+    "workers": 28,
+    "methods": [
+      "FA",
+      "FA+LDR"
+    ],
+    "host": "gold-srv2.iem.technion.ac.il",
+    "gurobi": [
+      13,
+      0,
+      1
+    ],
+    "historical_module": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_problem/select_sro_fa_rho_by_validation.py",
+    "historical_module_sha256": "a59c3da1b19c805b127e472b3f130e7939c084af17cd0338daa73a92a562cffd",
+    "this_file_sha256": "13bc6a70118e50977d752c784d0544f659fb4471cbe54c6ae8dba86f7bdc4365",
+    "ended_at_utc": "2026-10-15T19:11:10.295996+00:00",
+    "elapsed_s": 44149.909206792945
+  }
+}

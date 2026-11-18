@@ -1,0 +1,57 @@
+Metadata-Version: 2.4
+Name: moreau-cpu
+Version: 0.4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Programming Language :: Rust
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: scipy>=1.6.0
+Requires-Dist: pytest>=7.0.0 ; extra == 'test'
+Requires-Dist: cvxpy>=1.4.0 ; extra == 'test'
+Requires-Dist: torch>=2.4.0 ; extra == 'torch'
+Provides-Extra: test
+Provides-Extra: torch
+License-File: LICENSE
+License-File: NOTICE
+Summary: Moreau CPU solver: Conic interior-point optimization in Rust
+Keywords: convex,optimization,conic,solver,linear-programming
+Home-Page: https://github.com/moreau-project/moreau
+Author: Shane Barratt
+Author-email: Parth Nobel <parthnobel@berkeley.edu>, Steven Diamond <diamond@cs.stanford.edu>
+License: Apache-2.0
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Documentation, https://moreau.so
+Project-URL: Homepage, https://github.com/moreau-project/moreau
+Project-URL: Repository, https://github.com/moreau-project/moreau
+
+# moreau-cpu
+
+CPU backend for **Moreau**, a batched differentiable conic optimization solver.
+Implemented in Rust (built with maturin) and based on Clarabel.rs, with a
+DAQP-derived active-set solver for small QPs.
+
+Most users should install the unified [`moreau`](https://pypi.org/project/moreau/)
+package, which depends on this backend:
+
+```bash
+pip install moreau
+```
+
+See the [main repository](https://github.com/moreau-project/moreau) for
+documentation, examples, and source.
+
+## License
+
+Apache 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for full terms and
+upstream attribution (Clarabel.rs, diffqcp, DAQP).
+

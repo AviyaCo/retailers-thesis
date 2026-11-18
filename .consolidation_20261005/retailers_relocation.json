@@ -1,0 +1,190 @@
+{
+  "status": "relocated_verified",
+  "started_at": "2026-10-05T11:44:29.287918+00:00",
+  "method": "same-filesystem rename with complete metadata/inode inventory",
+  "workers": 1,
+  "roots": [
+    {
+      "source": "/data/home/aviyac/retailers_problem",
+      "destination": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_problem",
+      "metadata_before": "161f5e73b3751335402410a8477a5cfb9cd6fd94fe3fd01449483422daeb6937",
+      "status": "verified",
+      "metadata_after": "161f5e73b3751335402410a8477a5cfb9cd6fd94fe3fd01449483422daeb6937"
+    },
+    {
+      "source": "/data/home/aviyac/retailers_with_shipping",
+      "destination": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_with_shipping",
+      "metadata_before": "d43091d9c4fb3f11f7d7f316dd505540dec0aa4d73eba9dc256dc0118e23f26b",
+      "status": "verified",
+      "metadata_after": "d43091d9c4fb3f11f7d7f316dd505540dec0aa4d73eba9dc256dc0118e23f26b"
+    },
+    {
+      "source": "/data/home/aviyac/retailers_moreau_training_selected",
+      "destination": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected",
+      "metadata_before": "ac91ac58be17335b13df5e20a70bee1e9388fef1501193bcda4c070d1bb990d2",
+      "status": "verified",
+      "metadata_after": "ac91ac58be17335b13df5e20a70bee1e9388fef1501193bcda4c070d1bb990d2"
+    },
+    {
+      "source": "/data/home/aviyac/retailers_moreau",
+      "destination": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau",
+      "metadata_before": "14fb06e1eb2539c8efe09daa51949afcb6e2290b6d0ebb3836713c8376a0ada8",
+      "status": "verified",
+      "metadata_after": "14fb06e1eb2539c8efe09daa51949afcb6e2290b6d0ebb3836713c8376a0ada8"
+    },
+    {
+      "source": "/data/home/aviyac/retailers_moreau_N50_R3_net16_v2",
+      "destination": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_moreau_N50_R3_net16_v2",
+      "metadata_before": "8cae5756a0fb3c3fb433695db8684251bb36dd2e499ee1ad3dfa0f21a1b38763",
+      "status": "verified",
+      "metadata_after": "8cae5756a0fb3c3fb433695db8684251bb36dd2e499ee1ad3dfa0f21a1b38763"
+    },
+    {
+      "source": "/data/home/aviyac/retailers_scs_vs_moreau",
+      "destination": "/data/home/aviyac/retailers_experiment/workspace/05_history/original_paths/retailers_scs_vs_moreau",
+      "metadata_before": "6a28fe7be17a81e4e8274fc65dc711fa8a53c00a137ae72398dec340982d0a4c",
+      "status": "verified",
+      "metadata_after": "6a28fe7be17a81e4e8274fc65dc711fa8a53c00a137ae72398dec340982d0a4c"
+    }
+  ],
+  "navigation": [
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/03_figures/scripts/shipping_plot_comparison.py",
+      "old": "../../../../retailers_moreau_training_selected/shipping_comparison_20260928/plot_comparison.py",
+      "new": "../../05_history/original_paths/retailers_moreau_training_selected/shipping_comparison_20260928/plot_comparison.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/02_results/Moreau/shipping_stopping_revision",
+      "old": "../../../../retailers_moreau_training_selected/shipping_stopping_20261005",
+      "new": "../../05_history/original_paths/retailers_moreau_training_selected/shipping_stopping_20261005"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Moreau/R3_N200_N800_common.py",
+      "old": "../../../../retailers_moreau_training_selected/green_R3_N200_N800_20260923/green_common.py",
+      "new": "../../05_history/original_paths/retailers_moreau_training_selected/green_R3_N200_N800_20260923/green_common.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Moreau/R10_common.py",
+      "old": "../../../../retailers_moreau_training_selected/green_R10_N50_N200_N800_20260924/green_common.py",
+      "new": "../../05_history/original_paths/retailers_moreau_training_selected/green_R10_N50_N200_N800_20260924/green_common.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Moreau/R3_N50_core.py",
+      "old": "../../../../retailers_moreau/retailers_base/N50_R3/net16_v2_train40_val10/core.py",
+      "new": "../../05_history/original_paths/retailers_moreau/retailers_base/N50_R3/net16_v2_train40_val10/core.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Moreau/shipping_source_adapter.py",
+      "old": "../../../../retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/source_adapter.py",
+      "new": "../../05_history/original_paths/retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/source_adapter.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Moreau/shipping_common.py",
+      "old": "../../../../retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/shipping_common.py",
+      "new": "../../05_history/original_paths/retailers_moreau_training_selected/shipping_nominal_R3_N50_N200_N800_20260924/shipping_common.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/shipping/N50/sro_fa_shipping_sweep.py",
+      "old": "../../../../../../retailers_with_shipping/N50/sro_fa/sro_fa_shipping_sweep.py",
+      "new": "../../../../05_history/original_paths/retailers_with_shipping/N50/sro_fa/sro_fa_shipping_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/shipping/N800/sro_fa_shipping_sweep.py",
+      "old": "../../../../../../retailers_with_shipping/N800/sro_fa/sro_fa_shipping_sweep.py",
+      "new": "../../../../05_history/original_paths/retailers_with_shipping/N800/sro_fa/sro_fa_shipping_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/shipping/N200/sro_fa_shipping_sweep.py",
+      "old": "../../../../../../retailers_with_shipping/N200/sro_fa/sro_fa_shipping_sweep.py",
+      "new": "../../../../05_history/original_paths/retailers_with_shipping/N200/sro_fa/sro_fa_shipping_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/R3/N50/sro_fa_sweep.py",
+      "old": "../../../../../../retailers_problem/R3/N50/sro_fa/sro_fa_sweep.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R3/N50/sro_fa/sro_fa_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/R3/N800/sro_fa_sweep.py",
+      "old": "../../../../../../retailers_problem/R3/N800/sro_fa/sro_fa_sweep.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R3/N800/sro_fa/sro_fa_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/R3/N200/sro_fa_sweep.py",
+      "old": "../../../../../../retailers_problem/R3/N200/sro_fa/sro_fa_sweep.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R3/N200/sro_fa/sro_fa_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SRO_FA/R10/sro_fa_sweep.py",
+      "old": "../../../../../retailers_problem/R10/sro_fa/sro_fa_sweep.py",
+      "new": "../../../05_history/original_paths/retailers_problem/R10/sro_fa/sro_fa_sweep.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SCS/R3/N50/run_all_net16_v2.py",
+      "old": "../../../../../../retailers_problem/R3/N50/saainit_net16_v2/run_all_net16_v2.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R3/N50/saainit_net16_v2/run_all_net16_v2.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SCS/R3/N800/run_all_net16_v2_N800.py",
+      "old": "../../../../../../retailers_problem/R3/N800/saainit_net16_v2/run_all_net16_v2_N800.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R3/N800/saainit_net16_v2/run_all_net16_v2_N800.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SCS/R3/N200/run_all_net16_v2_N200.py",
+      "old": "../../../../../../retailers_problem/R3/N200/saainit_net16_v2/run_all_net16_v2_N200.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R3/N200/saainit_net16_v2/run_all_net16_v2_N200.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SCS/R10/N50/run_all_net16_v2_N50_R10.py",
+      "old": "../../../../../../retailers_problem/R10/N50/saainit_net16_v2/run_all_net16_v2_N50_R10.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R10/N50/saainit_net16_v2/run_all_net16_v2_N50_R10.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SCS/R10/N800/run_all_net16_v2_N800_R10.py",
+      "old": "../../../../../../retailers_problem/R10/N800/saainit_net16_v2/run_all_net16_v2_N800_R10.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R10/N800/saainit_net16_v2/run_all_net16_v2_N800_R10.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/SCS/R10/N200/run_all_net16_v2_N200_R10.py",
+      "old": "../../../../../../retailers_problem/R10/N200/saainit_net16_v2/run_all_net16_v2_N200_R10.py",
+      "new": "../../../../05_history/original_paths/retailers_problem/R10/N200/saainit_net16_v2/run_all_net16_v2_N200_R10.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Clarabel/N50/run_cv_nominal.py",
+      "old": "../../../../../retailers_with_shipping/N50/run_cv_nominal.py",
+      "new": "../../../05_history/original_paths/retailers_with_shipping/N50/run_cv_nominal.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Clarabel/N800/run_cv_nominal.py",
+      "old": "../../../../../retailers_with_shipping/N800/run_cv_nominal.py",
+      "new": "../../../05_history/original_paths/retailers_with_shipping/N800/run_cv_nominal.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/Clarabel/N200/run_cv_nominal.py",
+      "old": "../../../../../retailers_with_shipping/N200/run_cv_nominal.py",
+      "new": "../../../05_history/original_paths/retailers_with_shipping/N200/run_cv_nominal.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/LB/R3_cross_scenario.py",
+      "old": "../../../../retailers_problem/R3/saa_cross_lb.py",
+      "new": "../../05_history/original_paths/retailers_problem/R3/saa_cross_lb.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/LB/R10_conditional_1m.py",
+      "old": "../../../../retailers_problem/R10/saa_cond_lb_1m.py",
+      "new": "../../05_history/original_paths/retailers_problem/R10/saa_cond_lb_1m.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/LB/R3_conditional_1m.py",
+      "old": "../../../../retailers_problem/R3/saa_cond_lb_large.py",
+      "new": "../../05_history/original_paths/retailers_problem/R3/saa_cond_lb_large.py"
+    },
+    {
+      "path": "/data/home/aviyac/retailers_experiment/workspace/04_data_generation/LB/shipping_conditional_mip_1m.py",
+      "old": "../../../../retailers_with_shipping/N50/saa_cond_mip_1m_shipping_exact.py",
+      "new": "../../05_history/original_paths/retailers_with_shipping/N50/saa_cond_mip_1m_shipping_exact.py"
+    }
+  ],
+  "original_bytes_deleted": 0,
+  "ended_at": "2026-10-05T11:45:07.721596+00:00",
+  "wall_seconds": 38.4337043800042
+}

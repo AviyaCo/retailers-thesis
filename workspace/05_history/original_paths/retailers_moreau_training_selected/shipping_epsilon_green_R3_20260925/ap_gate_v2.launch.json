@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/ap_gate.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/ap_gate_v2"
+  ],
+  "supervisor": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/launch_gate.py",
+    "--supervise",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/ap_gate_v2",
+    "--session",
+    "shipping_epsilon_gate_v2_20260925"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925",
+  "session": "shipping_epsilon_gate_v2_20260925",
+  "log": "/data/home/aviyac/retailers_moreau_training_selected/shipping_epsilon_green_R3_20260925/ap_gate_v2.log",
+  "attach": "tmux attach -t shipping_epsilon_gate_v2_20260925",
+  "status": "tmux has-session -t shipping_epsilon_gate_v2_20260925"
+}

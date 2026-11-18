@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "start_utc": "2026-09-16T12:50:20.126929+00:00",
+  "end_utc": "2026-09-16T12:50:20.448919+00:00",
+  "wall_time_s": 0.3220427744090557,
+  "timing_clock": "time.perf_counter",
+  "scope": "presentation only; no evaluation or selection",
+  "source_plot_data_sha256": "df5c91260a05179f8f5ec5baedbabf6da0ce3907a49e8676ff65309cc59fa95e",
+  "script_sha256": "0b020f570bfe28e1a8258b0f6f4fbcba10f1b4a819e8d01d732f5a1eb6a86a0d",
+  "figure_sha256": "49b903454215d471e3da6bf2b7bef843a4fe13248ff05c01b04c5c15c8584d96"
+}

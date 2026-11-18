@@ -1,0 +1,41 @@
+{
+  "seed": 10,
+  "rho": 0.001,
+  "saa_time_s": 0.04,
+  "nominal_time_s": 410.31,
+  "ccg_iters": 3,
+  "ccg_time_s": 1916.0,
+  "total_time_s": 2327.54,
+  "converged": true,
+  "nom_loss": 17.095757653731958,
+  "final_mp_loss": 17.091391812665663,
+  "ccg_trajectory": [
+    {
+      "iter": 1,
+      "ap_mean": 17.102521633057037,
+      "mp_loss": 17.101929659364256,
+      "delta_pct": 0.03956525040937596,
+      "converged": false,
+      "ap_time_s": 1.41,
+      "mp_time_s": 94.39
+    },
+    {
+      "iter": 2,
+      "ap_mean": 19.685849553464994,
+      "mp_loss": 17.091391812665663,
+      "delta_pct": 15.108937678771813,
+      "converged": false,
+      "ap_time_s": 0.9,
+      "mp_time_s": 1818.38
+    },
+    {
+      "iter": 3,
+      "ap_mean": 17.09321843262437,
+      "mp_loss": 17.091391812665663,
+      "delta_pct": 0.01068736811330021,
+      "converged": true,
+      "ap_time_s": 0.92,
+      "mp_time_s": 0.0
+    }
+  ]
+}

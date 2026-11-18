@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-09-25T12:44:51.201235+00:00",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_replay_observed_20260925/preflight.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_replay_observed_20260925/preflight_v1"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_replay_observed_20260925",
+  "session": "shipping_replay_observed_20260925",
+  "workers": 1,
+  "threads": 1,
+  "timing_scope": "whole readiness child with advisory native replay; no training or CCG",
+  "returncode": 1,
+  "status": "failed",
+  "wall_time_s": 57.49410467594862,
+  "ended_at_utc": "2026-09-25T12:45:48.695336+00:00"
+}

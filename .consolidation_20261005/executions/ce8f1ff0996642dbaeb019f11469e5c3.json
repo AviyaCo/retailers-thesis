@@ -1,0 +1,42 @@
+{
+  "kind": "filesystem-compatibility invocation; NOT measured model runtime",
+  "started_at": "2026-10-05T11:45:23.438377+00:00",
+  "status": "completed",
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_comparison_20260928",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-c",
+    "from pathlib import Path; import ast,hashlib,json; p=Path.cwd(); m=json.loads((p/\"production_v1/manifest.json\").read_text()); source=(p/\"common.py\").read_text(); node=next(n for n in ast.parse(source).body if isinstance(n,ast.FunctionDef) and n.name==\"bound_file\"); sha=lambda path:hashlib.sha256(Path(path).read_bytes()).hexdigest(); check=lambda ok,message:None if ok else (_ for _ in ()).throw(AssertionError(message)); ns={\"Path\":Path,\"sha\":sha,\"check\":check}; exec(compile(ast.Module(body=[node],type_ignores=[]),str(p/\"common.py\"),\"exec\"),ns); paths=[path for path in m[\"files\"] if Path(path).suffix in (\".py\",\".sh\",\".md\")]; [ns[\"bound_file\"](m,path) for path in paths]; newer=p.parent/\"shipping_stopping_20261005/production_v2/published/comparison_shipping.png\"; assert newer.is_file(); print(json.dumps({\"original_bound_file_checks_passed\":len(paths),\"new_October5_figure_exists\":True,\"observations_loaded\":False,\"solvers_run\":False}))"
+  ],
+  "explicit_writable_directories": [],
+  "physical_roots": {
+    "hydro_rcr": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr",
+    "hydro_rcr_forgetting_factor_a": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_forgetting_factor_a",
+    "hydro_rcr_stable_mixing_b": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_stable_mixing_b",
+    "hydro_rcr_rescaled": "hydro_experiment/workspace/05_history/legacy_nominal/hydro_rcr_rescaled",
+    "hydro_rcr_moreau_from_scratch": "hydro_experiment/workspace/05_history/moreau_nominal/hydro_rcr_moreau_from_scratch",
+    "hydro_ap10000_extension": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap10000_extension",
+    "hydro_ap_bounded_trial": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_trial",
+    "hydro_ap_bounded_recheck": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_recheck",
+    "hydro_ap_bounded_parallel_continue": "hydro_experiment/workspace/05_history/ap_diagnostics/hydro_ap_bounded_parallel_continue",
+    "hydro_moreau_ccg_one_cycle": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_one_cycle",
+    "hydro_moreau_ccg_second_cycle": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_second_cycle",
+    "hydro_moreau_ccg_until_convergence": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_until_convergence",
+    "hydro_moreau_ccg_gap_tolerance": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_ccg_gap_tolerance",
+    "hydro_moreau_validation_radius_half": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_validation_radius_half",
+    "hydro_moreau_small_radius_grid": "hydro_experiment/workspace/05_history/ccg_chronology/hydro_moreau_small_radius_grid",
+    "hydro_center34_investigation": "hydro_experiment/workspace/05_history/numerical_diagnostics/hydro_center34_investigation",
+    "hydro_sddp_empirical_reference": "hydro_experiment/workspace/05_history/sddp_reference/hydro_sddp_empirical_reference",
+    "retailers_problem": "retailers_experiment/workspace/05_history/original_paths/retailers_problem",
+    "retailers_with_shipping": "retailers_experiment/workspace/05_history/original_paths/retailers_with_shipping",
+    "retailers_moreau_training_selected": "retailers_experiment/workspace/05_history/original_paths/retailers_moreau_training_selected",
+    "retailers_moreau": "retailers_experiment/workspace/05_history/original_paths/retailers_moreau",
+    "retailers_moreau_N50_R3_net16_v2": "retailers_experiment/workspace/05_history/original_paths/retailers_moreau_N50_R3_net16_v2",
+    "retailers_scs_vs_moreau": "retailers_experiment/workspace/05_history/original_paths/retailers_scs_vs_moreau"
+  },
+  "historical_records_modified": false,
+  "returncode": 0,
+  "ended_at": "2026-10-05T11:45:27.164666+00:00",
+  "wall_seconds": 3.72599391505355
+}

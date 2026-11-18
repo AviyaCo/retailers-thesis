@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/preflight.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/preflight_v1"
+  ],
+  "supervisor": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/launch.py",
+    "preflight",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/preflight_v1",
+    "--session",
+    "shipping_live_green_preflight_20260926",
+    "--supervise"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926",
+  "session": "shipping_live_green_preflight_20260926",
+  "log": "/data/home/aviyac/retailers_moreau_training_selected/shipping_live_green_20260926/preflight_v1.log",
+  "attach": "tmux attach -t shipping_live_green_preflight_20260926",
+  "status": "tmux has-session -t shipping_live_green_preflight_20260926"
+}

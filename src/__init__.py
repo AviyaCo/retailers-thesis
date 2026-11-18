@@ -1,0 +1,1 @@
+"""Shared no-shipping retailer primitives; importing the package runs no campaign."""

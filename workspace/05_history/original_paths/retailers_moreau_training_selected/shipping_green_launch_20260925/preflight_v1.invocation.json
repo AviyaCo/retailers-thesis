@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-09-25T12:03:04.871026+00:00",
+  "command": [
+    "/data/home/aviyac/ap_env/bin/python",
+    "-B",
+    "-u",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_green_launch_20260925/preflight.py",
+    "--output",
+    "/data/home/aviyac/retailers_moreau_training_selected/shipping_green_launch_20260925/preflight_v1"
+  ],
+  "cwd": "/data/home/aviyac/retailers_moreau_training_selected/shipping_green_launch_20260925",
+  "session": "shipping_green_readiness_20260925",
+  "workers": 1,
+  "threads": 1,
+  "timing_scope": "whole full-center readiness child including imports/teardown; not a CCG run",
+  "returncode": 1,
+  "status": "failed",
+  "wall_time_s": 52.774123162031174,
+  "ended_at_utc": "2026-09-25T12:03:57.645155+00:00"
+}
